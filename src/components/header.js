@@ -37,14 +37,10 @@ const Header = ({ className, ...props }) => {
   className = cx("w-full shadow-md", className);
   return (
     <div className={className} {...props}>
-      <div
-        className="h-24 lg:h-64 bg-fixed bg-contain"
-        style={{ backgroundImage: `url(${home})` }}
-        />
-      <div className="flex flex-wrap flex-row items-start md:items-center justify-between px-6 md:px-10 lg:px-24 text-black-700">
+      <div className="flex flex-wrap flex-row items-start md:items-center justify-between px-2 md:px-10 lg:px-12 text-black-700">
         <div className="my-2">
           <Link to="/">
-            <img className="h-12 lg:h-20" alt="Figurit Homepage" src={logo} />
+            <img className="h-10 lg:h-20 pt-2 lg:pt-1" alt="Figurit Homepage" src={logo} />
           </Link>
         </div>
 
@@ -68,7 +64,6 @@ const Header = ({ className, ...props }) => {
             } w-full md:w-auto flex md:flex flex-col md:flex-row justify-center md:justify-end items-stretch md:items-center py-1`}
         >
           <HeaderLink to="/">За нас</HeaderLink>
-          <HeaderLink to="/services">Услуги</HeaderLink>
           <HeaderLink to="/team">Проекти</HeaderLink>
           <HeaderLink to="/testimonials">Сертификати</HeaderLink>
           <HeaderLink to="/contact">Контакти</HeaderLink>

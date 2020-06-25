@@ -146,6 +146,9 @@ module.exports = {
       '48': '12rem',
       '56': '14rem',
       '64': '16rem',
+      'indexscreen': '90vh',
+      'header': '10vh',
+      'headerimage': '9vh'
     },
     backgroundColor: theme => theme('colors'),
     backgroundPosition: {

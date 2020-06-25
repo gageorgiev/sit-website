@@ -12,7 +12,7 @@ class IndexCarousel extends Component {
         return (
             <Carousel> 
                 <div> 
-                    <img src={building1} className="w-1/3"/>
+                    <img src={building1} />
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
