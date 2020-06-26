@@ -40,7 +40,7 @@ const Header = ({ className, ...props }) => {
       <div className="flex flex-wrap flex-row items-start md:items-center justify-between px-2 md:px-10 lg:px-12 text-black-700">
         <div className="my-2">
           <Link to="/">
-            <img className="h-10 lg:h-20 pt-2 lg:pt-1" alt="Figurit Homepage" src={logo} />
+            <img className="h-12 md:h-16 lg:h-20 pt-2 lg:pt-1" alt="Figurit Homepage" src={logo} />
           </Link>
         </div>
 
