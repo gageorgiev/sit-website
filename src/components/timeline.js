@@ -15,7 +15,6 @@ const Timeline = ({ className, ...props }) => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ boxShadow: 'none' }}
-                    contentArrowStyle={{ borderRight: '7px solid  grey' }}
                     date="2011 - 2014"
                     iconStyle={{ background: 'grey', }}
                 >
@@ -32,7 +31,6 @@ const Timeline = ({ className, ...props }) => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ boxShadow: 'none' }}
-                    contentArrowStyle={{ borderRight: '7px solid  grey' }}
                     date="2014 - 2016"
                     iconStyle={{ background: '#e31e25', }}
                 >
@@ -49,7 +47,6 @@ const Timeline = ({ className, ...props }) => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ boxShadow: 'none' }}
-                    contentArrowStyle={{ borderRight: '7px solid  grey' }}
                     date="2016 - 2019"
                     iconStyle={{ background: 'grey', }}
                 >

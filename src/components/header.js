@@ -34,7 +34,7 @@ const HeaderLink = ({ className, children, ...props }) => {
 const Header = ({ className, ...props }) => {
   let [isExpanded, toggleExpansion] = useState(false);
 
-  className = cx("sticky top-0 bg-white w-full shadow-md", className);
+  className = cx("sticky top-0 bg-white w-full shadow-md z-10", className);
   return (
     <div className={className} {...props}>
       <div className="flex flex-wrap flex-row items-start md:items-center justify-between px-2 md:px-10 lg:px-12 text-black-700">
