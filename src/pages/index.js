@@ -56,7 +56,7 @@ function Index({ data }) {
         >
 
           <div className="bg-fixed bg-center" style={{ backgroundImage: `url(${builders})` }}>
-            <div className="mb-24 flex flex-col mt-10 md:mt-16" >
+            <div className="mb-20 flex flex-col mt-10 md:mt-16" >
               <p className="mb-2 text-4xl text-gray-800 self-center">
                 За нас
             </p>
