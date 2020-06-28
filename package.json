@@ -21,11 +21,12 @@
     "google-maps-react": "^2.0.6",
     "graphql": "^14.6.0",
     "prop-types": "15.7.2",
+    "pure-react-carousel": "^1.27.1",
     "react": "16.13.1",
+    "react-alice-carousel": "^1.19.3",
     "react-background-slider": "^2.0.0",
     "react-dom": "16.13.1",
     "react-helmet": "6.0.0",
-    "react-responsive-carousel": "^3.2.8",
     "react-spring": "^8.0.27",
     "react-vertical-timeline-component": "^3.0.2"
   },

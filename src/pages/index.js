@@ -10,7 +10,6 @@ import SEO from "../components/seo";
 import { Parallax, ParallaxLayer } from 'react-spring';
 import home from "../images/green-building.jpg";
 import Timeline from '../components/timeline';
-import IndexCarousel from '../components/carousel';
 import builders from '../images/builders.jpg';
 import ImageSlider from '../components/image-slider';
 
@@ -52,7 +51,7 @@ function Index({ data }) {
       <Layout headerClass="relative bg-white">
         <SEO title="Home" />
         <div
-          className="min-h-screen mt-8 mb-20 bg-size-full md:bg-size-screen bg-no-repeat flex flex-col items-right"
+          className="mt-8 mb-20 bg-size-full md:bg-size-screen bg-no-repeat flex flex-col items-right"
         >
 
           <div className="bg-fixed bg-center" style={{ backgroundImage: `url(${builders})` }}>
@@ -61,14 +60,14 @@ function Index({ data }) {
                 За нас
             </p>
 
-              <div className="flex flex-wrap text-l lg:text-xl px-8">
-                <p>
+              <div className="flex flex-wrap text-m md:text-l lg:text-xl px-4 md:px-8 lg:px-12" >
+                <p className="mb-4">
                 Строителна фирма „С.И.Т.” ООД е регистрирана през 1995 г. в Пловдивски окръжен съд по ф. д. № 3550 и пререгистрирано в Агенция по вписванията Търговски регистър със съдружници и управители инж. Стефан Георгиев и Петър Георгиев и от тази дата осъществява строителна дейност. Основната дейност, която е реализирана от създаването до момента е изграждане на промишлени, търговски и жилищни сгради чрез възлагане и собствено строителство с цел продажба.
                 </p>
-                <p>
+                <p className="mb-4">
                 Дружество „С.И.Т.” ООД  предлага бързина, сигурност и високо качество на строителство. Този факт се дължи на прецизната и упорита работа на ръководството, инженерно-техническите кадри и високо квалифицираният изпълнителски персонал.
                 </p>
-                <p>
+                <p className="mb-4">
                 При ценообразуването дружеството предлага конкурентни цени в резултат на осигуреността със собствена механизация и  поддържането на добри и коректни бизнес отношения с доставчиците на материали, което е предпоставка за ритмично изпълнение графиците за строителство и срочното им предаване на инвеститорите за експлоатация.
                 </p>
               </div>

@@ -8,6 +8,7 @@ import iso14001 from "../certificates/CERT-E2476_14001-2015_2017-2020.pdf";
 import iso14001_eng from "../certificates/CERT-E2476_14001-2015_2017-2020_eng.pdf";
 import ohsas18001 from "../certificates/CERT-O-1043_18001-2007_2017-2020.pdf";
 import ohsas18001_eng from "../certificates/CERT-O-1043_18001-2007_2017-2020_eng.pdf";
+import CertCarousel from '../components/pure-cert-carousel';
 
 
 const Testimonial = ({ title, name, jobTitle, children }) => {
@@ -32,17 +33,11 @@ const Testimonials = ({ data }) => {
   return (
     <Layout>
       <SEO title="Testimonials" />
-      <div className="mb-48 flex flex-col items-start">
+      <div className="mb-24 flex flex-col items-start">
         <div className="w-3/4 md:w-1/2 mt-10 font-serif font-hairline">
           <h1 className="text-4xl md:text-5xl text-red-600">Сертификати</h1>
         </div>
-        <div className="w-full mt-16 flex flex-row justify-between">
-          <ul className="ml-10 list-disc" >
-            <li><a className="underline" href={iso9001} target="_blank"><strong>ISO 9001:2015</strong></a> <a className="underline" href={iso9001_eng} target="_blank">(английска версия)</a></li>
-            <li><a className="underline" href={iso14001} target="_blank"><strong>ISO 14001:2015</strong></a> <a className="underline" href={iso14001_eng} target="_blank">(английска версия)</a></li>
-            <li><a className="underline" href={ohsas18001} target="_blank"><strong>OHSAS 18001:2007</strong></a> <a className="underline" href={ohsas18001_eng} target="_blank">(английска версия)</a></li>
-          </ul>
-        </div>
+        <CertCarousel /> 
       </div>
     </Layout>
   );
@@ -69,3 +64,12 @@ export const query = graphql`
 `;
 
 export default Testimonials;
+
+/*
+<div className="w-full mt-16 flex flex-row justify-between">
+  <ul className="ml-10 list-disc" >
+    <li><a className="underline" href={iso9001} target="_blank"><strong>ISO 9001:2015</strong></a> <a className="underline" href={iso9001_eng} target="_blank">(английска версия)</a></li>
+    <li><a className="underline" href={iso14001} target="_blank"><strong>ISO 14001:2015</strong></a> <a className="underline" href={iso14001_eng} target="_blank">(английска версия)</a></li>
+    <li><a className="underline" href={ohsas18001} target="_blank"><strong>OHSAS 18001:2007</strong></a> <a className="underline" href={ohsas18001_eng} target="_blank">(английска версия)</a></li>
+  </ul>
+</div> */

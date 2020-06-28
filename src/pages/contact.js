@@ -36,6 +36,7 @@ const Contact = () => {
         </div>
         <ContactsMap />
       </div>
+      <div className="lg:h-24" />
     </Layout>
   );
 };
