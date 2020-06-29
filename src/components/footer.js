@@ -10,12 +10,12 @@ const Footer = ({ className, ...props }) => {
   return (
     <>
       <div className={className} {...props}>
-        <div className="flex-initial text-xl font-semibold">СИТ ООД</div>
+        <div className="flex-initial text-xl font-semibold">С.И.Т. ООД</div>
         <div>
           <ul className="flex flex-col md:flex-row text-sm -mx-3 font-medium">
             <li className="mx-3"><Link to="/">За нас</Link></li>
             <li className="mx-3"><Link to="/contact">Контакти</Link></li>
-            <li className="mx-3">©2019 СИТ ООД</li>
+            <li className="mx-3">©2019 С.И.Т. ООД</li>
           </ul>
         </div>
       </div>
