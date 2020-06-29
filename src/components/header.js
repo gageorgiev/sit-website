@@ -66,7 +66,7 @@ const Header = ({ className, ...props }) => {
           <HeaderLink to="/">За нас</HeaderLink>
           <HeaderLink to="/team">Проекти</HeaderLink>
           <HeaderLink to="/testimonials">Сертификати</HeaderLink>
-          <HeaderLink to="/testimonials-new">Сертификати2</HeaderLink>
+          <HeaderLink to="/testimonials-new">Сертификати(2)</HeaderLink>
           <HeaderLink to="/contact">Контакти</HeaderLink>
         </div>
       </div>
