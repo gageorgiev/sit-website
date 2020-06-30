@@ -21,17 +21,17 @@ const TestimonialsNew = ({ data }) => {
   return (
     <Layout>
       <SEO title="Testimonials" />
-      <div className="mb-24 flex flex-col items-start">
+      <div className="mb-88 flex flex-col items-start">
         <div className="w-3/4 md:w-1/2 mt-10 font-serif font-hairline">
           <h1 className="text-4xl md:text-5xl text-red-600">Сертификати</h1>
         </div>
         <div className="w-full flex flex-wrap justify-around" >
-            <a href={iso9001} target="_blank" ><img src={iso9001_pic} className="h-48 mx-4 my-4"/></a>
-            <a href={iso9001_eng} target="_blank" ><img src={iso9001_pic_eng} className="h-48 mx-4 my-4"/></a>
-            <a href={iso14001} target="_blank" ><img src={iso14001_pic} className="h-48 mx-4 my-4"/></a>
-            <a href={iso14001_eng} target="_blank" ><img src={iso14001_pic_eng} className="h-48 mx-4 my-4"/></a>
-            <a href={ohsas18001} target="_blank" ><img src={ohsas18001_pic} className="h-48 mx-4 my-4"/></a>
-            <a href={ohsas18001_eng} target="_blank" ><img src={ohsas18001_pic_eng} className="h-48 mx-4 my-4"/></a>
+            <a href={iso9001} target="_blank" ><img src={iso9001_pic} className="h-56 px-4 py-4"/></a>
+            <a href={iso9001_eng} target="_blank" ><img src={iso9001_pic_eng} className="h-56 px-4 py-4"/></a>
+            <a href={iso14001} target="_blank" ><img src={iso14001_pic} className="h-56 px-4 py-4"/></a>
+            <a href={iso14001_eng} target="_blank" ><img src={iso14001_pic_eng} className="h-56 px-4 py-4"/></a>
+            <a href={ohsas18001} target="_blank" ><img src={ohsas18001_pic} className="h-56 px-4 py-4"/></a>
+            <a href={ohsas18001_eng} target="_blank" ><img src={ohsas18001_pic_eng} className="h-56 px-4 py-4"/></a>
         </div>
       </div>
     </Layout>
