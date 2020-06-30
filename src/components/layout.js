@@ -20,7 +20,7 @@ const Layout = ({ className, headerClass, bodyClass, children, ...props }) => {
       <Header className={headerClass} />
       <div className="flex flex-col bg-fixed bg-cover bg-bottom bg-no-repeat" style={{ backgroundImage: `url(${gradient})` }} >
         <div className="mt-12 lg:mt-24 bg-white w-full pb-16 mb-24 lg:mb-48 skew-y-5" >
-          <div className="container mx-auto px-6 md:px-10 lg:px-24 pt-16 -skew-y-5">
+          <div className="container mx-auto px-1 md:px-10 lg:px-24 pt-4 lg:pt-16 -skew-y-5">
             <div className={bodyClass}>{children}</div>
           </div>
         </div>
