@@ -1,0 +1,26 @@
+@font-face {
+    font-family: playfair;
+    src: url(../../static/fonts/PlayfairDisplaySC-Bold.ttf);
+}
+
+@font-face {
+    font-family: manrope;
+    src: url(../../static/fonts/Manrope-Light.ttf)
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../../static/fonts/Montserrat-Light.ttf)
+}
+
+.playfair {
+    font-family: playfair;
+}
+
+.manrope {
+    font-family: manrope;
+}
+
+.montserrat {
+    font-family: montserrat;
+}

@@ -8,7 +8,7 @@ import building3 from '../images/carousel-building3.jpg';
 const Timeline = ({ className, ...props }) => {
     return (
         <div className="mb-20 flex flex-col">
-            <p className="mb-4 text-4xl text-gray-800 self-center">
+            <p className="mb-4 text-4xl text-gray-800 self-center playfair">
                 Нашите проекти
             </p>
             <VerticalTimeline>

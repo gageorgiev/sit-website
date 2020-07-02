@@ -274,6 +274,7 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       serif: [
+        '"Playfair Display SC"',
         'Georgia',
         'Cambria',
         '"Times New Roman"',

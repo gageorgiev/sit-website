@@ -36,6 +36,25 @@ module.exports = {
         purgeOnly: ["src/css/style.css"]
       }
     },
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: "gatsby-plugin-prefetch-google-fonts",
+      options: {
+        fonts: [
+          {
+            family: 'Manrope',
+            variants: ['400']
+          },
+          {
+            family: 'Roboto',
+            variants: ['300', '400']
+          },
+          {
+            family: 'Playfair Display SC',
+            variants: ['700']
+          }
+        ],
+      },
+    }
   ]
 };

@@ -13,6 +13,8 @@ import Timeline from '../components/timeline';
 import builders from '../images/builders.jpg';
 import ImageSlider from '../components/image-slider';
 
+import '../css/fonts.css';
+
 const StyledButton = ({ className, children, ...props }) => {
   className = cx(
     "py-2 px-4 bg-indigo-700 hover:bg-indigo-600 text-base text-white font-bold uppercase rounded shadow-md hover:-translate-1",
@@ -54,13 +56,13 @@ function Index({ data }) {
           className="mt-16 mb-20 bg-size-full md:bg-size-screen bg-no-repeat flex flex-col items-right"
         >
 
-          <div className="bg-fixed bg-top" style={{ backgroundImage: `url(${builders})` }}>
-            <div className="mb-20 flex flex-col mt-10 md:mt-16" >
-              <p className="mb-2 text-4xl text-gray-800 self-center">
+          <div className="bg-fixed bg-top bg-cover" style={{ backgroundImage: `url(${builders})` }}>
+            <div className="mb-20 flex flex-col mt-4 md:mt-16" >
+              <p className="mb-2 text-4xl text-gray-800 self-center playfair" >
                 За нас
             </p>
 
-              <div className="flex flex-wrap text-m md:text-l lg:text-xl px-4 md:px-8 lg:px-12" >
+              <div className="flex flex-wrap text-m md:text-l lg:text-xl px-4 md:px-8 lg:px-16 manrope" >
                 <img src={branding} className="h-20 mb-2 mx-auto justify-center" />
                 <p className="mb-4">
                 Строителна фирма „С.И.Т.” ООД е регистрирана през 1995 г. в Пловдивски окръжен съд по ф. д. № 3550 и пререгистрирано в Агенция по вписванията Търговски регистър със съдружници и управители инж. Стефан Георгиев и Петър Георгиев и от тази дата осъществява строителна дейност. Основната дейност, която е реализирана от създаването до момента е изграждане на промишлени, търговски и жилищни сгради чрез възлагане и собствено строителство с цел продажба.
