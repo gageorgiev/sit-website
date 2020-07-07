@@ -17,7 +17,7 @@ import iso14001_pic from "../certificates/pngs/CERT-E2476_14001-2015_2017-2020-1
 import ohsas18001_pic_eng from "../certificates/pngs/CERT-O-1043_18001-2007_2017-2020_eng-1.png";
 import ohsas18001_pic from "../certificates/pngs/CERT-O-1043_18001-2007_2017-2020-1.png";
 
-const TestimonialsNew = ({ data }) => {
+const Certificates = ({ data }) => {
   return (
     <Layout>
       <SEO title="Testimonials" />
@@ -25,7 +25,7 @@ const TestimonialsNew = ({ data }) => {
         <div className="w-3/4 md:w-1/2 mt-10 font-serif font-hairline">
           <h1 className="text-4xl md:text-5xl text-red-600">Сертификати</h1>
         </div>
-        <div className="w-full flex flex-wrap justify-around" >
+        <div className="w-full flex flex-wrap justify-around pt-4" >
             <a href={iso9001} target="_blank" ><img src={iso9001_pic} className="h-56 px-4 py-4"/></a>
             <a href={iso9001_eng} target="_blank" ><img src={iso9001_pic_eng} className="h-56 px-4 py-4"/></a>
             <a href={iso14001} target="_blank" ><img src={iso14001_pic} className="h-56 px-4 py-4"/></a>
@@ -38,7 +38,7 @@ const TestimonialsNew = ({ data }) => {
   );
 };
 
-export default TestimonialsNew;
+export default Certificates;
 
 /*
 <div className="w-full mt-32 flex flex-row justify-between">

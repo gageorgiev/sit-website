@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Проект 1",
+        "description": "1111111111111111111111",
+        "frontimage": "carousel-building1.jpg",
+        "client": "клиент проект 1"
+    },
+    {
+        "name": "Проект 2",
+        "description": "22222222222222222222222",
+        "frontimage": "carousel-building2.jpg",
+        "client": "клиент проект 2"
+    },
+    {
+        "name": "Проект 3",
+        "description": "33333333333333333333",
+        "frontimage": "carousel-building3.jpg",
+        "client": "клиент проект 3"
+    }
+]

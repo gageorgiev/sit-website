@@ -14,10 +14,10 @@ const Contact = () => {
       <div className="flex flex-wrap mt-10 mb-20">
         <div className="w-full lg:w-1/3 flex flex-col items-start">
           <div className="w-3/4 font-serif font-hairline">
-            <h1 className="text-4xl md:text-5xl text-red-600">Контакти</h1>
+            <h1 className="text-4xl md:text-5xl text-red-600 roboto">Контакти</h1>
           </div>
           <div
-            className="w-full lg:w-2/3 mt-10 px-6 py-4"
+            className="w-full lg:w-2/3 mt-10 px-6 py-4 manrope"
             style={{
               boxShadow:
                 "0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)"

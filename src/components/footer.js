@@ -4,7 +4,7 @@ import cx from "classnames";
 
 const Footer = ({ className, ...props }) => {
   className = cx(
-    "w-full px-8 py-4 text-white bg-red-900 flex flex-col md:flex-row justify-between items-start md:items-center",
+    "w-full px-8 py-4 text-white bg-red-900 flex flex-col md:flex-row justify-between items-start md:items-center manrope",
     className
   );
   return (

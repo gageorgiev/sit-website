@@ -11,6 +11,7 @@ import { Parallax, ParallaxLayer } from 'react-spring';
 import home from "../images/green-building.jpg";
 import Timeline from '../components/timeline';
 import builders from '../images/builders.jpg';
+import ParallaxSlideshow from '../components/parallax-slideshow';
 import ImageSlider from '../components/image-slider';
 
 import '../css/fonts.css';
@@ -63,15 +64,15 @@ function Index({ data }) {
             </p>
 
               <div className="flex flex-wrap text-m md:text-l lg:text-xl px-4 md:px-8 lg:px-16 manrope" >
-                <img src={branding} className="h-20 mb-2 mx-auto justify-center" />
+                <img src={branding} className="h-24 mb-2 mx-auto justify-center" />
                 <p className="mb-4">
                 Строителна фирма „С.И.Т.” ООД е регистрирана през 1995 г. в Пловдивски окръжен съд по ф. д. № 3550 и пререгистрирано в Агенция по вписванията Търговски регистър със съдружници и управители инж. Стефан Георгиев и Петър Георгиев и от тази дата осъществява строителна дейност. Основната дейност, която е реализирана от създаването до момента е изграждане на промишлени, търговски и жилищни сгради чрез възлагане и собствено строителство с цел продажба.
                 </p>
-                <img src={processing} className="h-20 mb-2 mx-auto justify-center" />
+                <img src={processing} className="h-24 mb-2 mx-auto justify-center" />
                 <p className="mb-4">
                 Дружество „С.И.Т.” ООД  предлага бързина, сигурност и високо качество на строителство. Този факт се дължи на прецизната и упорита работа на ръководството, инженерно-техническите кадри и високо квалифицираният изпълнителски персонал.
                 </p>
-                <img src={modeling} className="h-20 mb-2 mx-auto justify-center" />
+                <img src={modeling} className="h-24 mb-2 mx-auto justify-center" />
                 <p className="mb-4">
                 При ценообразуването дружеството предлага конкурентни цени в резултат на осигуреността със собствена механизация и  поддържането на добри и коректни бизнес отношения с доставчиците на материали, което е предпоставка за ритмично изпълнение графиците за строителство и срочното им предаване на инвеститорите за експлоатация.
                 </p>
@@ -82,6 +83,11 @@ function Index({ data }) {
 
         </div>
         <Timeline />
+            <div className="mb-20 flex flex-col mt-4 md:mt-16" >
+            <p className="mb-2 text-4xl text-gray-800 self-center playfair" >
+              Нашите партньори  
+            </p> 
+        </div>
       </Layout>
     </>
   );
