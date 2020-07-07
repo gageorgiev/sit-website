@@ -9,7 +9,7 @@ import ContactsMap from '../components/newmap';
 const Contact = () => {
   return (
     <Layout>
-      <SEO title="Contact" />
+      <SEO title="Контакти" />
 
       <div className="flex flex-wrap mt-10 mb-20">
         <div className="w-full lg:w-1/3 flex flex-col items-start">

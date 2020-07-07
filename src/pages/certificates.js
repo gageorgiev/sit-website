@@ -20,7 +20,7 @@ import ohsas18001_pic from "../certificates/pngs/CERT-O-1043_18001-2007_2017-202
 const Certificates = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Testimonials" />
+      <SEO title="Сертификати" />
       <div className="mb-88 flex flex-col items-start">
         <div className="w-3/4 md:w-1/2 mt-10 font-serif font-hairline">
           <h1 className="text-4xl md:text-5xl text-red-600">Сертификати</h1>

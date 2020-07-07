@@ -1,6 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
-import { } from 'pure-react-carousel';
+import ProjectCardCarousel from './project-card-carousel';
 
 
 export default function ProjectCard(props)  {
@@ -12,7 +12,7 @@ export default function ProjectCard(props)  {
         onClick={() => setShowModal(true)}
       >
         <div class="max-w-sm rounded overflow-hidden shadow-lg outline-none h-76">
-          <img class="w-full h-56" src={require(`../images/${props.frontimage}`)} alt="Sunset in the mountains" />
+          <img class="w-full h-56" src={require(`../images/${props.frontimage}`)} alt={props.name} />
           <div class="px-6 py-4">
             <div class="text-2xl mb-2">{props.name}</div>
             <p class="text-gray-700 ">
@@ -48,8 +48,8 @@ export default function ProjectCard(props)  {
                       Клиент: {props.client} 
                     </p>
                   </div>
-                  <div>
-                    <img src={require(`../images/${props.frontimage}`)} />
+                  <div className="h-88 w-88">
+                    <ProjectCardCarousel carousel={props.carousel} name={props.name} />
                   </div>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Tailwind Serif`,
+    title: `С.И.Т.`,
     description: `Gatsby starter styled with Tailwind`,
     author: `@windedge`
   },

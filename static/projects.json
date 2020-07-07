@@ -1,9 +1,10 @@
 [
     {
-        "name": "Проект 1",
+        "name": "colori",
         "description": "1111111111111111111111",
         "frontimage": "carousel-building1.jpg",
-        "client": "клиент проект 1"
+        "client": "клиент проект 1",
+        "carousel": ["dsc_0010.jpg", "dsc_0015.jpg", "dsc_0016.jpg"]
     },
     {
         "name": "Проект 2",

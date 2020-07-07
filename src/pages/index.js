@@ -52,7 +52,7 @@ function Index({ data }) {
         <ImageSlider />
       </div>
       <Layout headerClass="relative bg-white">
-        <SEO title="Home" />
+        <SEO title="За нас" />
         <div
           className="mt-16 mb-20 bg-size-full md:bg-size-screen bg-no-repeat flex flex-col items-right"
         >
