@@ -12,9 +12,9 @@ export default function ProjectCard(props)  {
         onClick={() => setShowModal(true)}
       >
         <div class="max-w-sm rounded overflow-hidden shadow-lg outline-none h-76">
-          <img class="w-full h-56" src={require(`../images/${props.frontimage}`)} alt={props.name} />
+          <img class="w-full h-56" src={require(`../images/project-images/${props.name}/${props.frontimage}`)} alt={props.name} />
           <div class="px-6 py-4">
-            <div class="text-2xl mb-2">{props.name}</div>
+            <div class="text-2xl mb-2">{props.displayname}</div>
             <p class="text-gray-700 ">
               {props.description}
             </p>
@@ -23,33 +23,33 @@ export default function ProjectCard(props)  {
       </button>
       {showModal ? (
         <>
-          <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
+          <div className="flex flex-col fixed inset-0 z-50 bg-white outline-none focus:outline-none shadow-lg w-full h-screen border-0 rounded-lg">
+            <div> 
               {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+              <div className="">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-gray-300 rounded-t">
                   <p className="text-3xl text-semibold">
-                    {props.name}
+                    {props.displayname}
                   </p>
                   <button
-                    className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                    className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none hover:underline top-0 right-0"
                     onClick={() => setShowModal(false)}
                   >
-                    <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+                    <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none">
                       ×
             </span>
                   </button>
                 </div>
                 {/*body*/}
-                <div className="p-6 flex flex-row flex-auto">
-                  <div>
+                <div className="p-6 flex flex-col md:flex-row-reverse flex-auto">
+                  <div className="h-full w-full">
+                    <ProjectCardCarousel carousel={props.carousel} name={props.name} />
+                  </div>
+                  <div className="pr-4 md:w-1/4">
                     <p className="my-4 text-gray-600 text-lg leading-relaxed">
                       Клиент: {props.client} 
                     </p>
-                  </div>
-                  <div className="h-88 w-88">
-                    <ProjectCardCarousel carousel={props.carousel} name={props.name} />
                   </div>
                 </div>
               </div>

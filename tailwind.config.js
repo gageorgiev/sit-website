@@ -150,6 +150,7 @@ module.exports = {
       '76': '22rem',
       '80': '24rem',
       '88': '28rem',
+      '96': '32rem',
       '1000': '500px',
       'indexscreen': '90vh',
       'header': '10vh',

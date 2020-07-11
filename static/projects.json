@@ -1,21 +1,74 @@
 [
     {
         "name": "colori",
+        "displayname": "Колори",
         "description": "1111111111111111111111",
-        "frontimage": "carousel-building1.jpg",
-        "client": "клиент проект 1",
-        "carousel": ["dsc_0010.jpg", "dsc_0015.jpg", "dsc_0016.jpg"]
+        "frontimage": "dsc_0010.jpg",
+        "client": "colori",
+        "carousel": ["dsc_0010.jpg", "dsc_0015.jpg"]
     },
     {
-        "name": "Проект 2",
+        "name": "novotela",
+        "displayname": "До новотела",
         "description": "22222222222222222222222",
-        "frontimage": "carousel-building2.jpg",
-        "client": "клиент проект 2"
+        "frontimage": "dsc_1415.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_1415.jpg"]
     },
     {
-        "name": "Проект 3",
-        "description": "33333333333333333333",
-        "frontimage": "carousel-building3.jpg",
-        "client": "клиент проект 3"
+        "name": "suedinenie",
+        "displayname": "До съединение",
+        "description": "22222222222222222222222",
+        "frontimage": "dsc_1468.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_1468.jpg", "dsc_1471.jpg"]
+    },
+    {
+        "name": "hankardam",
+        "displayname": "Хан Кардам",
+        "description": "22222222222222222222222",
+        "frontimage": "dsc_1439.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_1438.jpg", "dsc_1439.jpg"]
+    },
+    {
+        "name": "hristobotev",
+        "displayname": "ОУ Христо Ботев Съединение",
+        "description": "22222222222222222222222",
+        "frontimage": "dsc_0140.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_0128.jpg", "dsc_0134.jpg", "dsc_0136.jpg", "dsc_0140.jpg"]
+    },
+    {
+        "name": "leksi",
+        "displayname": "Лекси",
+        "description": "22222222222222222222222",
+        "frontimage": "dsc_1407.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_1407.jpg", "dsc_1410.jpg", "dsc_1411.jpg"]
+    },
+    {
+        "name": "praktiker",
+        "displayname": "Практикер",
+        "description": "22222222222222222222222",
+        "frontimage": "dsc_1430.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_1424.jpg", "dsc_1430.jpg"]
+    },
+    {
+        "name": "preslav",
+        "displayname": "Преслав",
+        "description": "22222222222222222222222",
+        "frontimage": "dsc_0018.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_0018.jpg"]
+    },
+    {
+        "name": "starosel",
+        "displayname": "Старосел",
+        "description": "22222222222222222222222",
+        "frontimage": "dsc_0161.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_0145.jpg", "dsc_0153.jpg", "dsc_0161.jpg", "dsc_0167.jpg", "dsc_0174.jpg", "dsc_0176.jpg"]
     }
 ]
