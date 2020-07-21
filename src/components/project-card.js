@@ -6,16 +6,16 @@ import ProjectCardCarousel from './project-card-carousel';
 export default function ProjectCard(props)  {
   const [showModal, setShowModal] = React.useState(false);
   return (
-    <div>
+    <div className="" >
       <button
         className="outline-none focus:opacity-50"
         onClick={() => setShowModal(true)}
       >
-        <div class="max-w-sm rounded overflow-hidden shadow-lg outline-none h-76">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg outline-none h-76" > 
           <img class="w-full h-56" src={require(`../images/project-images/${props.name}/${props.frontimage}`)} alt={props.name} />
           <div class="px-6 py-4">
-            <div class="text-2xl mb-2">{props.displayname}</div>
-            <p class="text-gray-700 ">
+            <div class="text-2xl mb-2 manropereg ">{props.displayname}</div>
+            <p class="text-gray-600 manrope ">
               {props.description}
             </p>
           </div>
@@ -23,7 +23,7 @@ export default function ProjectCard(props)  {
       </button>
       {showModal ? (
         <>
-          <div className="flex flex-col fixed inset-0 z-50 bg-white outline-none focus:outline-none shadow-lg w-full h-screen border-0 rounded-lg">
+          <div className="z-50 absolute left-0 bottom-0 bg-white outline-none focus:outline-none shadow-lg w-projectmodal h-screen  border-0 rounded-lg">
             <div> 
               {/*content*/}
               <div className="">

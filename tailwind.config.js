@@ -154,7 +154,8 @@ module.exports = {
       '1000': '500px',
       'indexscreen': '90vh',
       'header': '10vh',
-      'headerimage': '9vh'
+      'headerimage': '9vh',
+      'projectmodal': '75%'
     },
     backgroundColor: theme => theme('colors'),
     backgroundPosition: {

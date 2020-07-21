@@ -23,7 +23,7 @@ const Certificates = ({ data }) => {
       <SEO title="Сертификати" />
       <div className="mb-88 flex flex-col items-start">
         <div className="w-3/4 md:w-1/2 mt-10 font-serif font-hairline">
-          <h1 className="text-4xl md:text-5xl text-red-600">Сертификати</h1>
+          <h1 className="text-4xl md:text-5xl text-red-600 garamond">СЕРТИФИКАТИ</h1>
         </div>
         <div className="w-full flex flex-wrap justify-around pt-4" >
             <a href={iso9001} target="_blank" ><img src={iso9001_pic} className="h-56 px-4 py-4"/></a>

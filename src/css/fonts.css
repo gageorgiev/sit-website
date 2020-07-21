@@ -13,6 +13,21 @@
     src: url(../../static/fonts/Montserrat-Light.ttf)
 }
 
+@font-face {
+    font-family: manropereg;
+    src: url(../../static/fonts/Manrope-Regular.ttf)
+}
+
+@font-face {
+    font-family: garamond;
+    src: url(../../static/fonts/EBGaramond-SemiBold.ttf)
+}
+
+
+.garamond {
+    font-family: garamond;
+}
+
 .playfair {
     font-family: playfair;
 }
@@ -21,6 +36,12 @@
     font-family: manrope;
 }
 
+.manropereg {
+    font-family: manropereg;
+}
+
 .montserrat {
     font-family: montserrat;
 }
+
+
