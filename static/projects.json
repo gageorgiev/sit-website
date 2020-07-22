@@ -1,5 +1,37 @@
 [
     {
+        "name": "preslav",
+        "displayname": "Преслав",
+        "description": "22222222222222222222222",
+        "frontimage": "dsc_0018.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_0018.jpg"]
+    },
+    {
+        "name": "starosel",
+        "displayname": "Старосел",
+        "description": "22222222222222222222222",
+        "frontimage": "dsc_0161.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_0145.jpg", "dsc_0153.jpg", "dsc_0161.jpg", "dsc_0167.jpg", "dsc_0174.jpg", "dsc_0176.jpg"]
+    },
+    {
+        "name": "leksi",
+        "displayname": "Лекси",
+        "description": "22222222222222222222222",
+        "frontimage": "dsc_1407.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_1407.jpg", "dsc_1410.jpg", "dsc_1411.jpg"]
+    },
+    {
+        "name": "praktiker",
+        "displayname": "Практикер",
+        "description": "22222222222222222222222",
+        "frontimage": "dsc_1430.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_1424.jpg", "dsc_1430.jpg"]
+    },
+    {
         "name": "colori",
         "displayname": "Колори",
         "description": "1111111111111111111111",
@@ -38,37 +70,5 @@
         "frontimage": "dsc_0140.jpg",
         "client": "клиент проект 2",
         "carousel": ["dsc_0128.jpg", "dsc_0134.jpg", "dsc_0136.jpg", "dsc_0140.jpg"]
-    },
-    {
-        "name": "leksi",
-        "displayname": "Лекси",
-        "description": "22222222222222222222222",
-        "frontimage": "dsc_1407.jpg",
-        "client": "клиент проект 2",
-        "carousel": ["dsc_1407.jpg", "dsc_1410.jpg", "dsc_1411.jpg"]
-    },
-    {
-        "name": "praktiker",
-        "displayname": "Практикер",
-        "description": "22222222222222222222222",
-        "frontimage": "dsc_1430.jpg",
-        "client": "клиент проект 2",
-        "carousel": ["dsc_1424.jpg", "dsc_1430.jpg"]
-    },
-    {
-        "name": "preslav",
-        "displayname": "Преслав",
-        "description": "22222222222222222222222",
-        "frontimage": "dsc_0018.jpg",
-        "client": "клиент проект 2",
-        "carousel": ["dsc_0018.jpg"]
-    },
-    {
-        "name": "starosel",
-        "displayname": "Старосел",
-        "description": "22222222222222222222222",
-        "frontimage": "dsc_0161.jpg",
-        "client": "клиент проект 2",
-        "carousel": ["dsc_0145.jpg", "dsc_0153.jpg", "dsc_0161.jpg", "dsc_0167.jpg", "dsc_0174.jpg", "dsc_0176.jpg"]
     }
 ]

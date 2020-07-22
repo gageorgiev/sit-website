@@ -3,6 +3,9 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+    scale: {
+      '110': '1.1'
+    },
     screens: {
       sm: '640px',
       md: '768px',
@@ -147,6 +150,7 @@ module.exports = {
       '56': '14rem',
       '64': '16rem',
       '72': '20rem',
+      '74': '21rem',
       '76': '22rem',
       '80': '24rem',
       '88': '28rem',
