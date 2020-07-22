@@ -17,7 +17,7 @@ const Projects = ({ data }) => {
         <div className="w-3/4 md:w-1/2 mt-10 font-serif font-hairline">
           <h1 className="text-4xl md:text-5xl text-red-600 garamond">ПРОЕКТИ</h1>
         </div>
-        <div className="w-full flex flex-wrap justify-between pt-4" >
+        <div className="w-full flex flex-wrap justify-around pt-4" >
           {projects.map(project =>
             <div className="pb-4">
               <NewProjectCard

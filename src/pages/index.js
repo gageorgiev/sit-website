@@ -13,8 +13,10 @@ import Timeline from '../components/timeline';
 import builders from '../images/builders.jpg';
 import ParallaxSlideshow from '../components/parallax-slideshow';
 import ImageSlider from '../components/image-slider';
+import PartnerLogo from '../components/partner-logo';
 
 import '../css/fonts.css';
+
 
 
 import logo_aeroconcept from '../images/partner-logos/aeroconcept.jpg';
@@ -102,8 +104,8 @@ function Index({ data }) {
         <div className="mb-20 flex flex-col mt-4 md:mt-16" >
           <p className="mb-4 text-4xl text-gray-800 self-center garamond" >НАШИТЕ ПАРТНЬОРИ</p>
           <div className="flex flex-wrap justify-around" >
-            {partnerlogos.map(logo => 
-              <img src={logo} className="h-16 md:h-24 w-auto m-4 object-contain" />
+            {partnerlogos.map(logo =>
+              <PartnerLogo logo={logo} />
             )}
           </div>
         </div>
