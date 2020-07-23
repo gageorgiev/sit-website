@@ -16,8 +16,8 @@ const Contact = () => {
 
       <div className="flex flex-wrap mt-10 mb-20">
         <div className="w-full lg:w-1/3 flex flex-col items-start">
-          <div className="w-3/4 font-serif font-hairline">
-            <h1 className="text-4xl md:text-5xl text-red-600 garamond">КОНТАКТИ</h1>
+          <div className="w-3/4 font-hairline">
+            <h1 className="text-4xl md:text-5xl text-red-600 font-medium">КОНТАКТИ</h1>
           </div>
           <Spring
             to={{
@@ -36,15 +36,9 @@ const Contact = () => {
                 marginBottom: props.marginBottom
             }}
           >
-            <p>
-              <strong>Телефон: </strong>XXX XXX XXX
-          </p>
-            <p>
-              <strong>Имейл: </strong>xxx@xxx.com
-          </p>
-            <p>
-              <strong>Адрес: </strong>ул. Хан Кардам №8
-            </p>
+            <p><strong>Телефон: </strong>XXX XXX XXX</p>
+            <p><strong>Имейл: </strong>xxx@xxx.com</p>
+            <p><strong>Адрес: </strong>ул. Хан Кардам №8</p>
           </div>}
           </Spring>
         </div>

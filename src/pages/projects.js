@@ -14,12 +14,12 @@ const Projects = ({ data }) => {
     <Layout>
       <SEO title="Проекти" />
       <div className="min-h-screen mb-48 flex flex-col items-start">
-        <div className="w-3/4 md:w-1/2 mt-10 font-serif font-hairline">
-          <h1 className="text-4xl md:text-5xl text-red-600 garamond">ПРОЕКТИ</h1>
+        <div className="w-3/4 md:w-1/2 mt-10 font-hairline">
+          <h1 className="text-4xl md:text-5xl text-red-600 font-medium" >ПРОЕКТИ</h1>
         </div>
         <div className="w-full flex flex-wrap justify-around pt-4" >
           {projects.map(project =>
-            <div className="pb-4">
+            <Link className="pb-4" to={`/projects/${project.name}`}>
               <NewProjectCard
                 name={project.name}
                 description={project.description}
@@ -28,7 +28,7 @@ const Projects = ({ data }) => {
                 carousel={project.carousel}
                 displayname={project.displayname}
               />
-            </div>
+            </Link>
           )}
         </div>
       </div>

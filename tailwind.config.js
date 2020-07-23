@@ -158,7 +158,7 @@ module.exports = {
       '1000': '500px',
       'indexscreen': '90vh',
       'header': '10vh',
-      'headerimage': '9vh',
+      'headerimage': '7vh',
       'projectmodal': '75%',
       'fullvh': '100vh',
       'fullvw': '100vw',

@@ -27,7 +27,12 @@ import logo_tehnopanel from '../images/partner-logos/tehnopanel.jpg';
 import logo_teolino from '../images/partner-logos/teolino.jpg';
 import logo_gap from '../images/partner-logos/gap.jpg';
 
-const partnerlogos = [logo_hus, logo_iota, logo_gap, logo_teolino, logo_persenk, logo_tehnopanel, ];
+const partnerlogos1 = [{logo: logo_hus, height: '6rem'},
+                      {logo: logo_iota, height: '5.8rem'},
+                      {logo: logo_gap, height: '6.2rem'},
+                      {logo: logo_teolino, height: '4.5rem'}];
+const partnerlogos2 =  [{logo: logo_persenk, height: '3.2rem', paddingTop: '1rem'},
+                      {logo: logo_tehnopanel, height: '5rem', paddingTop: '0.3rem'}];
 
 
 const StyledButton = ({ className, children, ...props }) => {
@@ -104,8 +109,13 @@ function Index({ data }) {
         <div className="mb-20 flex flex-col mt-4 md:mt-16" >
           <p className="mb-4 text-4xl text-gray-800 self-center garamond" >НАШИТЕ ПАРТНЬОРИ</p>
           <div className="flex flex-wrap justify-around" >
-            {partnerlogos.map(logo =>
-              <PartnerLogo logo={logo} />
+            {partnerlogos1.map(logodata =>
+              <PartnerLogo logo={logodata.logo} height={logodata.height} paddingTop={''} />
+            )}
+          </div>
+          <div className="flex flex-wrap justify-around" >
+            {partnerlogos2.map(logodata =>
+              <PartnerLogo logo={logodata.logo} height={logodata.height} paddingTop={logodata.paddingTop} />
             )}
           </div>
         </div>

@@ -10,7 +10,7 @@ export default function Certificate(certdata) {
         >
             {props =>
                 <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} style={{ transform: props.transform, paddingLeft: props.padding, paddingRight: props.padding, opacity: props.opacity}}>
-                <a href={certdata.cert} target="_blank"><img src={certdata.certpic} className="h-56 px-4 py-4"/></a>
+                <a href={certdata.cert} target="_blank"><img src={certdata.certpic} className="h-48 md:h-56 px-4 py-4"/></a>
                 </div>
             }
         </Spring>

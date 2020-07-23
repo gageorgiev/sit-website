@@ -4,7 +4,7 @@ import cx from "classnames";
 
 const Footer = ({ className, ...props }) => {
   className = cx(
-    "w-full px-8 py-4 text-white bg-red-900 flex flex-col md:flex-row justify-between items-start md:items-center manrope",
+    "w-full px-8 py-4 text-white bg-black bg-opacity-75 flex flex-col md:flex-row justify-between items-start md:items-center manrope",
     className
   );
   return (
@@ -20,7 +20,7 @@ const Footer = ({ className, ...props }) => {
         </div>
       </div>
 
-      <div className="w-full px-8 py-2 text-white text-xs font-light bg-black flex flex-col sm:flex-row justify-between items-start md:items-center">
+      <div className="w-full px-8 py-2 text-white text-xs font-light bg-black bg-opacity-50 flex flex-col sm:flex-row justify-between items-start md:items-center">
         <div>
           <strong className="font-bold">Телефон: </strong>
           XXX XXX XXX
