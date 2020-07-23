@@ -93,7 +93,7 @@ export default function NewProjectCard(projectdata) {
                     </div>
                   </div>
                 </div>
-                <div className="opacity-25 absolute inset-0 z-40 bg-black w-screen h-full" onClick={() => setState({ showModal: false, hovering: state.hovering })}></div>
+                <div className="opacity-25 fixed inset-0 z-40 bg-black w-fullvw h-fullvh justify-center" onClick={() => setState({ showModal: false, hovering: state.hovering })}></div>
               </>
             ) : null}
           </>}</Spring>

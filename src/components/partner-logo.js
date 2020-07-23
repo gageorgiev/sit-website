@@ -20,7 +20,7 @@ export default function PartnerLogo(imagedata) {
                     {props =>
                         <img src={imagedata.logo} className="h-16 md:h-24 m-8" style={{ transform: props.transformCard,
                                                                                         opacity: props.opacity,
-                                                                                        padding: props.padding
+                                                                                        padding: props.padding,
                                                         }} />
                     }
                 </Spring>

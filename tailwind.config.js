@@ -159,7 +159,9 @@ module.exports = {
       'indexscreen': '90vh',
       'header': '10vh',
       'headerimage': '9vh',
-      'projectmodal': '75%'
+      'projectmodal': '75%',
+      'fullvh': '100vh',
+      'fullvw': '100vw',
     },
     backgroundColor: theme => theme('colors'),
     backgroundPosition: {

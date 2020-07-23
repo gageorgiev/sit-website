@@ -2,6 +2,7 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Certificate from '../components/certificate';
 
 import iso9001 from "../certificates/CERT-10726_9001-2015_2017-2020.pdf";
 import iso9001_eng from "../certificates/CERT-10726_9001-2015_2017-2020_eng.pdf";
@@ -17,6 +18,14 @@ import iso14001_pic from "../certificates/pngs/CERT-E2476_14001-2015_2017-2020-1
 import ohsas18001_pic_eng from "../certificates/pngs/CERT-O-1043_18001-2007_2017-2020_eng-1.png";
 import ohsas18001_pic from "../certificates/pngs/CERT-O-1043_18001-2007_2017-2020-1.png";
 
+const certs = [{cert: iso9001, certpic: iso9001_pic},
+                {cert: iso9001_eng, certpic: iso9001_pic_eng},
+                {cert: iso14001, certpic: iso14001_pic},
+                {cert: iso14001_eng, certpic: iso14001_pic_eng},
+                {cert: ohsas18001, certpic: ohsas18001_pic},
+                {cert: ohsas18001_eng, certpic: ohsas18001_pic_eng}, ]
+
+
 const Certificates = ({ data }) => {
   return (
     <Layout>
@@ -26,12 +35,9 @@ const Certificates = ({ data }) => {
           <h1 className="text-4xl md:text-5xl text-red-600 garamond">СЕРТИФИКАТИ</h1>
         </div>
         <div className="w-full flex flex-wrap justify-around pt-4" >
-            <a href={iso9001} target="_blank" ><img src={iso9001_pic} className="h-56 px-4 py-4"/></a>
-            <a href={iso9001_eng} target="_blank" ><img src={iso9001_pic_eng} className="h-56 px-4 py-4"/></a>
-            <a href={iso14001} target="_blank" ><img src={iso14001_pic} className="h-56 px-4 py-4"/></a>
-            <a href={iso14001_eng} target="_blank" ><img src={iso14001_pic_eng} className="h-56 px-4 py-4"/></a>
-            <a href={ohsas18001} target="_blank" ><img src={ohsas18001_pic} className="h-56 px-4 py-4"/></a>
-            <a href={ohsas18001_eng} target="_blank" ><img src={ohsas18001_pic_eng} className="h-56 px-4 py-4"/></a>
+          {certs.map(certinfo =>
+              <Certificate cert={certinfo.cert} certpic={certinfo.certpic} />
+          )}
         </div>
       </div>
     </Layout>
