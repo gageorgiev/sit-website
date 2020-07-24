@@ -5,7 +5,7 @@ import '../css/marker.css';
 
 const ContactsMap = ({ className, ...props }) => {
     return (
-        <div className="h-72 w-full lg:h-88 lg:w-3/5">
+        <div className="h-72 w-full lg:h-88 lg:w-7/12">
             <GoogleMapReact
               bootstrapURLKeys={{ key: 'AIzaSyBoUyquM_X2JgbZaGpOe5L1AG-buN3q8w0'}}
               defaultCenter={{ lat: 42.136059, lng: 24.737103 }}

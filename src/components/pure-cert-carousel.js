@@ -1,12 +1,12 @@
 import React from 'react';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image, Dot } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
-import iso9001 from "../certificates/pngs/CERT-10726_9001-2015_2017-2020-1.png";
-import iso9001_eng from "../certificates/pngs/CERT-10726_9001-2015_2017-2020_eng-1.png";
-import iso14001 from "../certificates/pngs/CERT-E2476_14001-2015_2017-2020-1.png";
-import iso14001_eng from "../certificates/pngs/CERT-E2476_14001-2015_2017-2020_eng-1.png";
-import ohsas18001 from "../certificates/pngs/CERT-O-1043_18001-2007_2017-2020-1.png";
-import ohsas18001_eng from "../certificates/pngs/CERT-O-1043_18001-2007_2017-2020_eng-1.png";
+//import iso9001 from "../certificates/pngs/CERT-10726_9001-2015_2017-2020-1.png";
+//import iso9001_eng from "../certificates/pngs/CERT-10726_9001-2015_2017-2020_eng-1.png";
+//import iso14001 from "../certificates/pngs/CERT-E2476_14001-2015_2017-2020-1.png";
+//import iso14001_eng from "../certificates/pngs/CERT-E2476_14001-2015_2017-2020_eng-1.png";
+//import ohsas18001 from "../certificates/pngs/CERT-O-1043_18001-2007_2017-2020-1.png";
+//import ohsas18001_eng from "../certificates/pngs/CERT-O-1043_18001-2007_2017-2020_eng-1.png";
 
 
 const CertCarousel = ({ className, ...props }) => {

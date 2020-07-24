@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
-import Link from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import map from "../images/contacts-map.png"
 import ContactsMap from '../components/newmap';
 import { Spring } from 'react-spring/renderprops';
+
+import CallIcon from '../../static/icons/call.svg';
+import EmailIcon from '../../static/icons/email.svg';
+import PinIcon from '../../static/icons/pin_drop.svg';
 
 const Contact = () => {
   const [hovering, setHovering] = React.useState(false);
@@ -15,31 +16,49 @@ const Contact = () => {
       <SEO title="Контакти" />
 
       <div className="flex flex-wrap mt-10 mb-20">
-        <div className="w-full lg:w-1/3 flex flex-col items-start">
+        <div className="w-full lg:w-5/12 flex flex-col items-start">
           <div className="w-3/4 font-hairline">
-            <h1 className="text-4xl md:text-5xl text-red-600 font-medium">КОНТАКТИ</h1>
+            <h1 className="text-4xl md:text-5xl text-red-600 garamond">КОНТАКТИ</h1>
           </div>
           <Spring
             to={{
               transform: `scale(${hovering ? 1.1 : 1})`,
-              marginBottom: `${hovering ? '1rem' : '0rem'}`
+              marginBottom: `${hovering ? '1rem' : '0rem'}`,
+                shadow: `${hovering ? '0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)' : '0 15px 35px rgba(0,0,0,0), 0 5px 15px rgba(0,0,0,0)'}`
             }}
           >
-          { props => <div
-            onMouseEnter={() => setHovering(true)}
-            onMouseLeave={() => setHovering(false)}
-            className="w-full lg:w-2/3 mt-10 px-6 py-4 manrope"
-            style={{
-              boxShadow:
-                "0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)",
+            {props => <div
+              onMouseEnter={() => setHovering(true)}
+              onMouseLeave={() => setHovering(false)}
+              className="w-full lg:w-11/12 mt-10 px-6 py-4 manrope text-xl"
+              style={{
+                boxShadow: props.shadow,
                 transform: props.transform,
                 marginBottom: props.marginBottom
-            }}
-          >
-            <p><strong>Телефон: </strong>XXX XXX XXX</p>
-            <p><strong>Имейл: </strong>xxx@xxx.com</p>
-            <p><strong>Адрес: </strong>ул. Хан Кардам №8</p>
-          </div>}
+              }}
+            >
+              <div className="flex flex-row w-full">
+                <img src={CallIcon} className="justify-center pr-2 w-8" style={{ strokeOpacity: '50%'}}/>
+                <p><div className="text-xl font-bold">Телефони: </div></p>
+              </div>
+              <div class="mb-4 ml-12 justify-end">
+                <p className="flex flex-row"><div className="font-bold mr-2">Главен инженер:</div>+359 886 588 066</p>
+                <p className="flex flex-row"><div className="font-bold mr-2">Офертен отдел:</div>  +359 886 033 650</p>
+                <p className="flex flex-row"><div className="font-bold mr-2">Счетоводство:</div>  +359 885 568 658</p>
+              </div>
+              <div className="flex flex-row w-full pb-2">
+                <img src={EmailIcon} className="justify-center pr-2 w-8" />
+                <div className="flex flex-row">
+                  <div className="font-bold mr-2">Имейл: </div>
+                  <div>sit_ltd@mail.bg</div>
+                </div>
+              </div>
+              <div className="flex flex-row w-full">
+                <img src={PinIcon} className="justify-center pr-2 w-8" />
+                <div className="font-bold mr-2">Адрес: </div>
+                <div>ул. Хан Кардам №8, Пловдив</div>
+              </div>
+            </div>}
           </Spring>
         </div>
         <ContactsMap />

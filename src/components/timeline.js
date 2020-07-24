@@ -9,7 +9,7 @@ const Timeline = ({ className, ...props }) => {
     return (
         <div className="mb-20 flex flex-col manrope">
             <p className="mb-4 text-4xl text-gray-800 self-center garamond">
-                НАШИТЕ ПРОЕКТИ
+                НАШИТЕ ОБЕКТИ
             </p>
             <VerticalTimeline>
                 <VerticalTimelineElement

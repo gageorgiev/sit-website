@@ -7,11 +7,8 @@ import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import { Parallax, ParallaxLayer } from 'react-spring';
-import home from "../images/green-building.jpg";
 import Timeline from '../components/timeline';
 import builders from '../images/builders.jpg';
-import ParallaxSlideshow from '../components/parallax-slideshow';
 import ImageSlider from '../components/image-slider';
 import PartnerLogo from '../components/partner-logo';
 
