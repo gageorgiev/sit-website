@@ -28,7 +28,7 @@ export default function NewProjectCard(projectdata) {
               <div
                 class="max-w-sm rounded overflow-hidden shadow-lg outline-none h-74 focus:shadow-outline"
               >
-                <img style={{ width: '100%', height: props.pictureHeight, transform: props.transformPic }} src={require(`../images/project-images/${projectdata.name}/${projectdata.frontimage}`)} alt={projectdata.name} />
+                <img style={{ width: '100%', height: props.pictureHeight, transform: props.transformPic }} src={require(`../images/project-images/${projectdata.name}/thumbnail/${projectdata.frontimage}`)} alt={projectdata.name} />
                 <div>
                   <div class="text-2xl manropereg" >{projectdata.displayname}</div>
                   <p class="text-gray-600 manrope">
