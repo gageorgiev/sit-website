@@ -11,7 +11,7 @@ export default function NewProjectCard(projectdata) {
       <Spring
         to={{
           transformCard: `scale(${state.hovering ? 1.05 : 1})`,
-          transformPic: `scaleX(${state.hovering ? 1.5 : 1})`,
+          transformPic: `scaleX(${state.hovering ? 1.4 : 1})`,
           pictureHeight: `${state.hovering ? '90%' : '64%'}`,
           paddingPic: `${state.hovering ? '2rem' : '0rem'}`,
           shadow: `${state.hovering ? '0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)' : '0 15px 35px rgba(0,0,0,0), 0 5px 15px rgba(0,0,0,0)'}`

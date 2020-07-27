@@ -5,7 +5,9 @@
         "description": "22222222222222222222222",
         "frontimage": "dsc_0018.jpg",
         "client": "клиент проект 2",
-        "carousel": ["dsc_0018.jpg"]
+        "carousel": ["dsc_0018.jpg"],
+        "place": "местоположение",
+        "endyear": "2016"
     },
     {
         "name": "starosel",
@@ -13,7 +15,9 @@
         "description": "22222222222222222222222",
         "frontimage": "dsc_0161.jpg",
         "client": "клиент проект 2",
-        "carousel": ["dsc_0145.jpg", "dsc_0153.jpg", "dsc_0161.jpg", "dsc_0167.jpg", "dsc_0174.jpg", "dsc_0176.jpg"]
+        "carousel": ["dsc_0145.jpg", "dsc_0153.jpg", "dsc_0161.jpg", "dsc_0167.jpg", "dsc_0174.jpg", "dsc_0176.jpg"],
+        "place": "местоположение",
+        "endyear": "2016"
     },
     {
         "name": "leksi",
@@ -21,7 +25,9 @@
         "description": "22222222222222222222222",
         "frontimage": "dsc_1407.jpg",
         "client": "клиент проект 2",
-        "carousel": ["dsc_1407.jpg", "dsc_1410.jpg", "dsc_1411.jpg"]
+        "carousel": ["dsc_1407.jpg", "dsc_1410.jpg", "dsc_1411.jpg"],
+        "place": "местоположение",
+        "endyear": "2016"
     },
     {
         "name": "praktiker",
@@ -29,7 +35,9 @@
         "description": "22222222222222222222222",
         "frontimage": "dsc_1430.jpg",
         "client": "клиент проект 2",
-        "carousel": ["dsc_1424.jpg", "dsc_1430.jpg"]
+        "carousel": ["dsc_1424.jpg", "dsc_1430.jpg"],
+        "place": "местоположение",
+        "endyear": "2016"
     },
     {
         "name": "colori",
@@ -37,7 +45,9 @@
         "description": "1111111111111111111111",
         "frontimage": "dsc_0010.jpg",
         "client": "colori",
-        "carousel": ["dsc_0010.jpg", "dsc_0015.jpg"]
+        "carousel": ["dsc_0010.jpg", "dsc_0015.jpg"],
+        "place": "местоположение",
+        "endyear": "2016"
     },
     {
         "name": "novotela",
@@ -45,7 +55,9 @@
         "description": "22222222222222222222222",
         "frontimage": "dsc_1415.jpg",
         "client": "клиент проект 2",
-        "carousel": ["dsc_1415.jpg"]
+        "carousel": ["dsc_1415.jpg"],
+        "place": "местоположение",
+        "endyear": "2016"
     },
     {
         "name": "suedinenie",
@@ -53,7 +65,9 @@
         "description": "22222222222222222222222",
         "frontimage": "dsc_1468.jpg",
         "client": "клиент проект 2",
-        "carousel": ["dsc_1468.jpg", "dsc_1471.jpg"]
+        "carousel": ["dsc_1468.jpg", "dsc_1471.jpg"],
+        "place": "местоположение",
+        "endyear": "2016"
     },
     {
         "name": "hankardam",
@@ -61,7 +75,9 @@
         "description": "22222222222222222222222",
         "frontimage": "dsc_1439.jpg",
         "client": "клиент проект 2",
-        "carousel": ["dsc_1438.jpg", "dsc_1439.jpg"]
+        "carousel": ["dsc_1438.jpg", "dsc_1439.jpg"],
+        "place": "местоположение",
+        "endyear": "2016"
     },
     {
         "name": "hristobotev",
@@ -69,6 +85,8 @@
         "description": "22222222222222222222222",
         "frontimage": "dsc_0140.jpg",
         "client": "клиент проект 2",
-        "carousel": ["dsc_0128.jpg", "dsc_0134.jpg", "dsc_0136.jpg", "dsc_0140.jpg"]
+        "carousel": ["dsc_0128.jpg", "dsc_0134.jpg", "dsc_0136.jpg", "dsc_0140.jpg"],
+        "place": "местоположение",
+        "endyear": "2016"
     }
 ]

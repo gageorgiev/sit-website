@@ -1,19 +1,19 @@
 import React from 'react';
-import Layout from '../../components/layout';
-import SEO from '../../components/seo';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 import { CarouselProvider, Dot, Slide, Slider, Image } from 'pure-react-carousel';
 import { Spring } from 'react-spring/renderprops';
 
-export default function Colori(props) {
+const Project = ({ pageContext }) => {
     const [hovering, setHovering] = React.useState(false);
 
     return (
         <Layout>
-            <SEO title="Колори" />
+            <SEO title={pageContext.displayname} />
             <div className="flex flex-wrap mt-10 mb-20">
                 <div className="w-full flex flex-col items-start">
                     <div className="w-3/4 font-hairline">
-                        <h1 className="text-4xl md:text-5xl text-red-600 font-medium">КОЛОРИ</h1>
+                        <h1 className="text-4xl md:text-5xl text-red-600 garamond uppercase">{pageContext.displayname}</h1>
                     </div>
                     <div className="flex flex-col md:flex-row justify-around w-full">
                         <Spring
@@ -35,32 +35,33 @@ export default function Colori(props) {
 
                                 }}
                             >
-                                <p><strong>Клиент: </strong>XXX</p>
+                                <p><strong>Инвеститор: </strong>{pageContext.client}</p>
+                                <p><strong>Местоположение: </strong>{pageContext.place}</p>
+                                <p><strong>Година на завършване: </strong>{pageContext.endyear}</p>
                             </div>}
                         </Spring>
                         <div className="h-96 w-full md:w-2/3">
                             <CarouselProvider
                                 naturalSlideWidth={6000}
                                 naturalSlideHeight={4000}
-                                totalSlides={2}
+                                totalSlides={pageContext.carousel.length}
                                 isPlaying={true}
                                 interval={2000}
+                                className="w-full md:w-3/5 lg:w-1/2 mt-8 self-center"
                             >
-                                <Slider>
-                                    <Slide index={0} >
-                                        <Image src={require('../../images/project-images/colori/dsc_0010.jpg')} />
-                                    </Slide>
-                                    <Slide index={1}>
-                                        <Image src={require('../../images/project-images/colori/dsc_0015.jpg')} />
-                                    </Slide>
+                                <Slider> 
+                                    {pageContext.carousel.map((photo, index) =>
+                                        <Slide index={index} >
+                                            <Image src={require(`../images/project-images/${pageContext.name}/${photo}`)} />
+                                        </Slide>
+                                    )}
                                 </Slider>
                                 <div className="flex flex-row justify-center">
-                                    <Dot slide={0}>
-                                        <img src={require('../../images/project-images/colori/dsc_0010.jpg')} className="h-16 p-1" />
+                                    {pageContext.carousel.map((photo, index) =>
+                                    <Dot slide={index}>
+                                        <img src={require(`../images/project-images/${pageContext.name}/${photo}`)} className="h-16 p-1" />
                                     </Dot>
-                                    <Dot slide={1}>
-                                        <img src={require('../../images/project-images/colori/dsc_0015.jpg')} className="h-16 p-1" />
-                                    </Dot>
+                                    )}
                                 </div>
                             </CarouselProvider>
                         </div>
@@ -71,3 +72,6 @@ export default function Colori(props) {
         </Layout>
     );
 }
+
+
+export default Project;

@@ -1,28 +1,17 @@
 exports.createPages = async ({ actions: { createPage }, graphql }) => {
-  const result = await graphql(`
-    {
-      allMarkdownRemark {
-        edges {
-          node {
-            id
-            frontmatter {
-              path
-              image
-            }
-          }
-        }
-      }
-    }
-  `);
-  const services = result.data.allMarkdownRemark.edges;
-  services.forEach(function({ node }) {
-    const { path, image } = node.frontmatter;
+  const projects = require("./static/projects.json")
+  projects.forEach(project => {
     createPage({
-      path,
-      component: require.resolve("./src/templates/service.js"),
+      path: `/projects/${project.name}`,
+      component: require.resolve("./src/templates/project.js"),
       context: {
-        id: node.id
+        displayname: project.displayname,
+        name: project.name,
+        carousel: project.carousel,
+        client: project.client,
+        place: project.place,
+        endyear: project.endyear
       }
-    });
+    })
   });
 };

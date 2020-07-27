@@ -14,8 +14,7 @@ import PartnerLogo from '../components/partner-logo';
 
 import '../css/fonts.css';
 
-
-import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons';
+import { CarouselProvider, Dot, Slide, Slider, Image } from 'pure-react-carousel';
 
 import logo_aeroconcept from '../images/partner-logos/aeroconcept.jpg';
 import logo_hus from '../images/partner-logos/hus.jpg';
@@ -33,35 +32,9 @@ const partnerlogos2 = [{ logo: logo_persenk, height: '6vh', paddingTop: '2vh' },
 { logo: logo_tehnopanel, height: '8.5vh', paddingTop: '1.2vh' }];
 
 
-const StyledButton = ({ className, children, ...props }) => {
-  className = cx(
-    "py-2 px-4 bg-indigo-700 hover:bg-indigo-600 text-base text-white font-bold uppercase rounded shadow-md hover:-translate-1",
-    className
-  );
-  return (
-    <button className={className} {...props}>
-      {children}
-    </button>
-  );
-};
-
-const Service = ({ title, url, children }) => {
-  return (
-    <div className="w-full sm:w-1/2 md:w-1/3 p-2">
-      <Link
-        to={url}
-        className="text-2xl text-red-700 hover:text-red-600 hover:underline"
-      >
-        {title}
-      </Link>
-      <p>{children}</p>
-    </div>
-  );
-};
 
 
 function Index({ data }) {
-  const services = data.services.edges;
   let parallax;
 
   return (
@@ -123,25 +96,6 @@ function Index({ data }) {
     </>
   );
 }
-
-export const query = graphql`
-  query {
-    services: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/content/services/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            path
-          }
-          excerpt
-        }
-      }
-    }
-  }
-`;
 
 export default Index;
 
