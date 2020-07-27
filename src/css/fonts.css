@@ -5,7 +5,8 @@
 
 @font-face {
     font-family: manrope;
-    src: url(../../static/fonts/Manrope-Light.ttf)
+    src: url(../../static/fonts/Manrope-Light.ttf);
+    font-display: fallback;
 }
 
 @font-face {
@@ -21,6 +22,7 @@
 @font-face {
     font-family: garamond;
     src: url(../../static/fonts/EBGaramond-SemiBold.ttf)
+    font-display: fallback;
 }
 
 @font-face {
