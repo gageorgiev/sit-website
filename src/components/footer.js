@@ -13,25 +13,17 @@ const Footer = ({ className, ...props }) => {
         <div className="flex-initial text-xl font-semibold">С.И.Т. ООД</div>
         <div>
           <ul className="flex flex-col md:flex-row text-sm -mx-3 font-medium">
-            <li className="mx-3"><Link to="/">За нас</Link></li>
-            <li className="mx-3"><Link to="/contact">Контакти</Link></li>
+            <li className="mx-3 underline"><Link to="/">За нас</Link></li>
+            <li className="mx-3 underline"><Link to="/contact">Контакти</Link></li>
             <li className="mx-3">©2019 С.И.Т. ООД</li>
           </ul>
         </div>
       </div>
 
-      <div className="w-full px-8 py-2 text-white text-xs font-light bg-black bg-opacity-50 flex flex-col sm:flex-row justify-between items-start md:items-center">
+      <div className="w-full px-8 py-2 text-white text-xs manrope bg-black bg-opacity-50 flex flex-col items-end">
         <div>
-          <strong className="font-bold">Телефон: </strong>
-          XXX XXX XXX
-          <strong className="ml-3 font-bold">Имейл: </strong>
-          xxx@xxx.com
-        </div>
-        <div>
-          <Link to="/" className="hover:underline">
-            www.xxx.com
-          </Link>
-        </div>
+          Уеб дизайн и уеб разработка от <a href="https://www.linkedin.com/in/gabriel-georgiev-b039571b3/" className="underline" >Габриел Георгиев</a>.
+          </div>
       </div>
     </>
   );

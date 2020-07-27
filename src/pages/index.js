@@ -15,6 +15,7 @@ import PartnerLogo from '../components/partner-logo';
 import '../css/fonts.css';
 
 
+import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons';
 
 import logo_aeroconcept from '../images/partner-logos/aeroconcept.jpg';
 import logo_hus from '../images/partner-logos/hus.jpg';
@@ -24,12 +25,12 @@ import logo_tehnopanel from '../images/partner-logos/tehnopanel.jpg';
 import logo_teolino from '../images/partner-logos/teolino.jpg';
 import logo_gap from '../images/partner-logos/gap.jpg';
 
-const partnerlogos1 = [{logo: logo_hus, height: '6rem'},
-                      {logo: logo_iota, height: '5.8rem'},
-                      {logo: logo_gap, height: '6.2rem'},
-                      {logo: logo_teolino, height: '4.5rem'}];
-const partnerlogos2 =  [{logo: logo_persenk, height: '3.2rem', paddingTop: '1rem'},
-                      {logo: logo_tehnopanel, height: '5rem', paddingTop: '0.3rem'}];
+const partnerlogos1 = [{ logo: logo_hus, height: '9vh' },
+{ logo: logo_iota, height: '9vh' },
+{ logo: logo_gap, height: '10.5vh' },
+{ logo: logo_teolino, height: '9vh' }];
+const partnerlogos2 = [{ logo: logo_persenk, height: '6vh', paddingTop: '2vh' },
+{ logo: logo_tehnopanel, height: '8.5vh', paddingTop: '1.2vh' }];
 
 
 const StyledButton = ({ className, children, ...props }) => {
@@ -61,11 +62,12 @@ const Service = ({ title, url, children }) => {
 
 function Index({ data }) {
   const services = data.services.edges;
+  let parallax;
 
   return (
     <>
-      <div className="h-indexscreen" >
-        <ImageSlider />
+      <div className="h-indexscreen">
+        <ImageSlider/>
       </div>
       <Layout headerClass="relative bg-white">
         <SEO title="За нас" />
@@ -90,6 +92,7 @@ function Index({ data }) {
                 <p className="mb-4">
                   Дружество „С.И.Т.” ООД  предлага бързина, сигурност и високо качество на строителство. Този факт се дължи на прецизната и упорита работа на ръководството,
                   инженерно-техническите кадри и високо квалифицираният изпълнителски персонал.
+                  Ние извършваме цялостно изпълнение на обекти, от първа копка до ключ. dsadsdsssssssssssssssssssssssss dsadsdsssssssssssssssssssssssss
                 </p>
                 <img src={modeling} className="h-24 mb-2 mx-auto justify-center" />
                 <p className="mb-4">

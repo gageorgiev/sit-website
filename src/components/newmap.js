@@ -1,6 +1,5 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
-import mapmarker from '../images/mapmarker.png';
 import '../css/marker.css';
 
 const ContactsMap = ({ className, ...props }) => {

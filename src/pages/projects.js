@@ -2,10 +2,8 @@ import React from "react";
 import { Link, withPrefix, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import ProjectCard from '../components/project-card';
 import NewProjectCard from '../components/new-project-card';
 import projects from '../../static/projects.json';
-import ProjectCardCarousel from "../components/project-card-carousel";
 
 
 const Projects = ({ data }) => {

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Link } from "gatsby";
 import cx from "classnames";
 import logo from "../images/Sit_Logo_New_02.jpg";
-import home from "../images/cropped-greenbuildings.png";
 
+/*
 const StyledLink = ({ className, ...props }) => {
   className = cx(className);
   return (
@@ -12,6 +12,7 @@ const StyledLink = ({ className, ...props }) => {
     </Link>
   );
 };
+*/
 
 const HeaderLink = ({ className, children, ...props }) => {
   className = cx(
@@ -40,7 +41,7 @@ const Header = ({ className, ...props }) => {
       <div className="flex flex-wrap flex-row items-start md:items-center justify-between px-2 md:px-10 lg:px-12 text-black-700">
         <div className="my-2">
           <Link to="/">
-            <img className="h-8 md:h-headerimage mb-2 mt-2 " alt="Figurit Homepage" src={logo} />
+            <img className="h-8 md:h-headerimage mb-2 mt-2" alt="Figurit Homepage" src={logo} />
           </Link>
         </div>
 

@@ -12,21 +12,21 @@ export default function PartnerLogo(imagedata) {
             >
                 <Spring
                     to={{
-                        transformCard: `scale(${state.hovering ? 1.1 : 0.9})`,
+                        transformCard: `scale(${state.hovering ? 1.2 : 1 })`,
                         opacity: `${state.hovering ? 1 : 0.9}`,
-                        padding: `${state.hovering ? '0.2rem' : '0rem'}`
+                        padding: `${state.hovering ? '1rem' : '0rem'}`
                     }}
                 >
                     {props =>
-                        <img src={imagedata.logo} className="" style={{ transform: props.transformCard,
+                        <img src={imagedata.logo} style={{ transform: props.transformCard,
                                                                                         opacity: props.opacity,
-                                                                                        paddingTop: props.padding,
-                                                                                        paddingBottom: props.padding,
-                                                                                        paddingRight: props.padding,
-                                                                                        paddingLeft: props.padding,
+                                                                                        marginTop: '1rem',
+                                                                                        marginBottom: '1rem',
+                                                                                        marginRight: props.padding,
+                                                                                        marginLeft: props.padding,
                                                                                         height: imagedata.height,
                                                                                         width: 'auto',
-                                                                                        marginTop: imagedata.paddingTop 
+                                                                                        marginTop: imagedata.paddingTop,
                                                         }} />
                     }
                 </Spring>

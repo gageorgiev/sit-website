@@ -4,10 +4,11 @@ import 'react-vertical-timeline-component/style.min.css';
 import building1 from '../images/project-images/leksi/dsc_1407.jpg';
 import building2 from '../images/project-images/praktiker/dsc_1430.jpg';
 import building3 from '../images/project-images/colori/dsc_0010.jpg';
+import { Link } from 'gatsby';
 
 const Timeline = ({ className, ...props }) => {
     return (
-        <div className="mb-20 flex flex-col manrope">
+        <div className="mb-20 flex flex-col items-center manrope">
             <p className="mb-4 text-4xl text-gray-800 self-center garamond">
                 НАШИТЕ ОБЕКТИ
             </p>
@@ -61,7 +62,12 @@ const Timeline = ({ className, ...props }) => {
                     </div>
                 </VerticalTimelineElement>
             </VerticalTimeline>
-            </div>
+            <Link to="/projects">
+                <button class="bg-gray-300 hover:bg-red-100 hover:text-red-600 font-bold text-xl manrope py-2 px-4 rounded">
+                    Всички обекти
+                </button>
+            </Link>
+        </div>
     );
 };
 
