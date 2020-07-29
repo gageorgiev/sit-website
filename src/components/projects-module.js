@@ -25,7 +25,7 @@ const ProjectsModule = ({ }) => {
             <div className="pt-4">
             <TabPanel className="w-full flex flex-wrap justify-around ">
               {projects.map(project =>
-                <Link className="pb-8" to={`/projects/${project.name}`}>
+                <Link className="mb-8" to={`/projects/${project.name}`}>
                   <NewProjectCard
                     name={project.name}
                     description={project.description}

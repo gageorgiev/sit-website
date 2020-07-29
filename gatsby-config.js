@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `С.И.Т.`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@windedge`
+    description: `Строителна фирма С.И.Т. ООД`,
+    author: `@gabrielgeorgiev1998`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,7 +13,7 @@ module.exports = {
         short_name: `serif`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#4dc0b5`,
+        theme_color: `#e31e25`,
         display: `minimal-ui`,
         icon: `static/favicon.png`
       }

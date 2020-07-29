@@ -23,12 +23,9 @@ export default function NewProjectCard(projectdata) {
       >
         {props =>
           <>
-            <button
-              type="button"
+              <div
               onMouseEnter={() => setState({ hovering: true })}
               onMouseLeave={() => setState({ hovering: false })}
-            >
-              <div
                 class="max-w-sm rounded overflow-hidden outline-none h-74"
               style={{ transform: props.transformCard, paddingRight: props.paddingPic, paddingLeft: props.paddingPic, outlineColor: 'none', boxShadow: props.shadow, opacity: props.opacity, marginTop: props.paddingTop }}
               >
@@ -38,14 +35,13 @@ export default function NewProjectCard(projectdata) {
                   transform: props.transformPic
                 }}
                   src={require(`../images/project-images/${projectdata.name}/thumbnail/${projectdata.frontimage}`)} alt={projectdata.name} />
-                <div>
-                  <div class="text-2xl manropereg" >{projectdata.displayname}</div>
+                <div className="ml-2">
+                  <div class="text-2xl manrope" >{projectdata.displayname}</div>
                   <p class="text-gray-600 manrope">
                     {projectdata.description}
                   </p>
                 </div>
               </div>
-            </button>
           </>}</Spring>
     </>
   );
