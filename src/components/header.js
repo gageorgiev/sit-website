@@ -16,7 +16,7 @@ const StyledLink = ({ className, ...props }) => {
 
 const HeaderLink = ({ className, children, ...props }) => {
   className = cx(
-    "w-full md:w-auto py-2 md:px-1 -mb-1 text-sm font-medium uppercase hover:text-red-500 border-transparent border-b-4 md:hover:border-red-600 relative",
+    "w-full md:w-auto py-2 md:px-1 -mb-1 text-sm manrope font-bold uppercase hover:text-red-500 border-transparent border-b-4 md:hover:border-red-600 relative",
     className
   );
   return (

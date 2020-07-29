@@ -34,7 +34,7 @@ module.exports = {
       },
       red: {
         100: '#fceaeb',
-        200: '#fed7d7',
+        200: '#f9d4d6',
         300: '#eb6267',
         400: '#fc8181',
         500: '#f56565',
@@ -164,7 +164,7 @@ module.exports = {
       'headerimage': '7vh',
       'projectmodal': '75%',
       'fullvh': '100vh',
-      'fullvw': '100vw',
+      'fullvw': '100vw', 
     },
     backgroundColor: theme => theme('colors'),
     backgroundPosition: {

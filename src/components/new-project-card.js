@@ -1,5 +1,5 @@
 import React from "react";
-import { Spring } from "react-spring/renderprops";
+import { Spring, config } from "react-spring/renderprops";
 
 export default function NewProjectCard(projectdata) {
   const [state, setState] = React.useState({
@@ -9,14 +9,17 @@ export default function NewProjectCard(projectdata) {
   return (
     <>
       <Spring
+        from={{ opacity: 0, paddingTop: '2rem' }}
         to={{
           transformCard: `scale(${state.hovering ? 1.05 : 1})`,
           transformPic: `scaleX(${state.hovering ? 1.4 : 1})`,
-          pictureHeight: `${state.hovering ? '90%' : '64%'}`,
+          pictureHeight: `${state.hovering ? '90%' : '75%'}`,
           paddingPic: `${state.hovering ? '2rem' : '0rem'}`,
-          shadow: `${state.hovering ? '0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)' : '0 15px 35px rgba(0,0,0,0), 0 5px 15px rgba(0,0,0,0)'}`
+          shadow: `${state.hovering ? '0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)' : '0 15px 35px rgba(0,0,0,0), 0 5px 15px rgba(0,0,0,0)'}`,
+          opacity: 1,
+          paddingTop: '0rem'
         }}
-        config={{ tension: 200 }}
+        config={key => (key === 'opacity' ? config.molasses : config.default )}
       >
         {props =>
           <>
@@ -24,11 +27,10 @@ export default function NewProjectCard(projectdata) {
               type="button"
               onMouseEnter={() => setState({ hovering: true })}
               onMouseLeave={() => setState({ hovering: false })}
-              style={{ transform: props.transformCard, paddingRight: props.paddingPic, paddingLeft: props.paddingPic, outlineColor: 'none' }}
             >
               <div
-                class="max-w-sm rounded overflow-hidden outline-none h-74 focus:shadow-outline"
-                style={{ boxShadow: props.shadow }}
+                class="max-w-sm rounded overflow-hidden outline-none h-74"
+              style={{ transform: props.transformCard, paddingRight: props.paddingPic, paddingLeft: props.paddingPic, outlineColor: 'none', boxShadow: props.shadow, opacity: props.opacity, marginTop: props.paddingTop }}
               >
                 <img style={{
                   width: '100%',
@@ -48,5 +50,3 @@ export default function NewProjectCard(projectdata) {
     </>
   );
 }
-
-

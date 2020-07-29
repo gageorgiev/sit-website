@@ -30,7 +30,7 @@ const Contact = () => {
             {props => <div
               onMouseEnter={() => setHovering(true)}
               onMouseLeave={() => setHovering(false)}
-              className="w-full lg:w-11/12 mt-10 px-6 py-4 manrope text-xl"
+              className="w-full lg:w-11/12 mt-10 px-6 py-4 manrope text-base md:text-xl"
               style={{
                 boxShadow: props.shadow,
                 transform: props.transform,
@@ -38,10 +38,12 @@ const Contact = () => {
               }}
             >
               <div className="flex flex-row w-full">
+                <div className="flex flex-row pb-2">
                 <img src={CallIcon} className="justify-center pr-2 w-8" style={{ strokeOpacity: '50%'}}/>
-                <p><div className="text-xl font-bold">Телефони: </div></p>
+                <p><div className="font-bold">Телефони: </div></p>
+                </div>
               </div>
-              <div class="mb-4 ml-12 justify-end">
+              <div class="mb-4 ml-4 md:ml-12 justify-end">
                 <p className="flex flex-row"><div className="font-bold mr-2">Главен инженер:</div>+359 886 588 066</p>
                 <p className="flex flex-row"><div className="font-bold mr-2">Офертен отдел:</div>  +359 886 033 650</p>
                 <p className="flex flex-row"><div className="font-bold mr-2">Счетоводство:</div>  +359 885 568 658</p>

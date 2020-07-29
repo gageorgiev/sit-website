@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: garamond;
-    src: url(../../static/fonts/EBGaramond-SemiBold.ttf)
+    src: url(../../static/fonts/EBGaramond-SemiBold.ttf);
     font-display: fallback;
 }
 
@@ -52,5 +52,3 @@
 .montserrat {
     font-family: montserrat;
 }
-
-

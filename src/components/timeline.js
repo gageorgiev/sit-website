@@ -63,7 +63,7 @@ const Timeline = ({ className, ...props }) => {
                 </VerticalTimelineElement>
             </VerticalTimeline>
             <Link to="/projects">
-                <button class="bg-gray-300 hover:bg-red-100 hover:text-red-600 font-bold text-xl manrope py-2 px-4 rounded">
+                <button class="bg-gray-300 hover:bg-red-100 hover:text-red-600 font-bold text-xl manrope py-2 px-4 rounded focus:bg-red-200 focus:border-red-700">
                     Всички обекти
                 </button>
             </Link>

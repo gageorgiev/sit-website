@@ -4,6 +4,7 @@
   "version": "1.0",
   "author": "@windedge",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "classnames": "^2.2.6",
     "gatsby": "2.21.21",
     "gatsby-cli": "^2.12.64",
@@ -30,6 +31,8 @@
     "react-helmet": "6.0.0",
     "react-modal": "^3.11.2",
     "react-spring": "^8.0.27",
+    "react-swipeable-views": "^0.13.9",
+    "react-tabs": "^3.1.1",
     "react-vertical-timeline-component": "^3.0.2"
   },
   "keywords": [
