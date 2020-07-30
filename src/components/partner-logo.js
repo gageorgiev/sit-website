@@ -18,7 +18,7 @@ export default function PartnerLogo(imagedata) {
                     }}
                 >
                     {props =>
-                        <img src={imagedata.logo} style={{ transform: props.transformCard,
+                        <img src={imagedata.logo} alt={imagedata.alt} style={{ transform: props.transformCard,
                                                                                         opacity: props.opacity,
                                                                                         marginTop: '1rem',
                                                                                         marginBottom: '1rem',

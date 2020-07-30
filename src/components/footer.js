@@ -20,7 +20,7 @@ const Footer = ({ className, ...props }) => {
         </div>
       </div>
 
-      <div className="w-full px-8 py-2 text-white text-xs manrope bg-black bg-opacity-50 flex flex-col items-end">
+      <div className="w-full px-4 py-2 text-white text-xs manrope bg-black bg-opacity-50 flex flex-col items-end">
         <div>
           Уеб дизайн и уеб разработка от <a href="https://www.linkedin.com/in/gabriel-georgiev-b039571b3/" target="_blank" rel="noreferrer" className="underline" >Габриел Георгиев</a>.
           </div>

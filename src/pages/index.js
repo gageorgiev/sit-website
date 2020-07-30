@@ -14,7 +14,6 @@ import PartnerLogo from '../components/partner-logo';
 
 import '../css/fonts.css';
 
-import { CarouselProvider, Dot, Slide, Slider, Image } from 'pure-react-carousel';
 
 import logo_aeroconcept from '../images/partner-logos/aeroconcept.jpg';
 import logo_hus from '../images/partner-logos/hus.jpg';
@@ -24,19 +23,19 @@ import logo_tehnopanel from '../images/partner-logos/tehnopanel.jpg';
 import logo_teolino from '../images/partner-logos/teolino.jpg';
 import logo_gap from '../images/partner-logos/gap.jpg';
 
-const partnerlogos1 = [{ logo: logo_hus, height: '9vh' },
-{ logo: logo_iota, height: '9vh' },
-{ logo: logo_gap, height: '10.5vh' },
+const partnerlogos1 = [{ logo: logo_hus, height: '9vh', alt: 'logo_hus' },
+{ logo: logo_iota, height: '9vh', alt: 'logo_iota' },
+{ logo: logo_teolino, height: '9vh', alt: 'logo_teolino' },
 ];
-const partnerlogos2 = [{ logo: logo_persenk, height: '6vh', paddingTop: '2vh' },{ logo: logo_teolino, height: '9vh' },
-{ logo: logo_tehnopanel, height: '8.5vh', paddingTop: '1.2vh' }];
+const partnerlogos2 = [{ logo: logo_persenk, height: '6vh', paddingTop: '2vh', alt: 'logo_persenk' },
+{ logo: logo_gap, height: '10.5vh', paddingTop: '0.2vh', alt: 'logo_gap' },
+{ logo: logo_tehnopanel, height: '8.5vh', paddingTop: '1.2vh', alt: 'logo_tehnopanel' }
+];
 
 
 
 
 function Index({ data }) {
-  let parallax;
-
   return (
     <>
       <div className="h-indexscreen">
@@ -83,12 +82,12 @@ function Index({ data }) {
           <p className="mb-4 text-4xl text-gray-800 self-center garamond" >НАШИТЕ ПАРТНЬОРИ</p>
           <div className="flex flex-wrap justify-around" >
             {partnerlogos1.map(logodata =>
-              <PartnerLogo logo={logodata.logo} height={logodata.height} paddingTop={''} />
+              <PartnerLogo logo={logodata.logo} height={logodata.height} paddingTop={''} alt={logodata.alt} />
             )}
           </div>
           <div className="flex flex-wrap justify-around" >
             {partnerlogos2.map(logodata =>
-              <PartnerLogo logo={logodata.logo} height={logodata.height} paddingTop={logodata.paddingTop} />
+              <PartnerLogo logo={logodata.logo} height={logodata.height} paddingTop={logodata.paddingTop} alt={logodata.alt} />
             )}
           </div>
         </div>

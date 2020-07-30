@@ -36,7 +36,7 @@ export default function NewProjectCard(projectdata) {
                 }}
                   src={require(`../images/project-images/${projectdata.name}/thumbnail/${projectdata.frontimage}`)} alt={projectdata.name} />
                 <div className="ml-2">
-                  <div class="text-xl manrope" >{projectdata.displayname}</div>
+                  <div class="text-l mt-1 manrope" >{projectdata.displayname}</div>
                 </div>
               </div>
           </>}</Spring>

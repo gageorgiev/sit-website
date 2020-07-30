@@ -16,7 +16,7 @@ module.exports = {
         short_name: `sit`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#aaaaaa`,
+        theme_color: `#cccccc`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`
       }
