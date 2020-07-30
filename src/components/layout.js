@@ -6,7 +6,7 @@ import Footer from "./footer";
 import SEO from './seo'
 import "../css/style.css";
 
-import gradient from "../../static/gradient-banner.jpg";
+import gradient from "../images/gradient-banner.jpg";
 
 const Layout = ({ className, headerClass, bodyClass, children, ...props }) => {
   bodyClass = bodyClass || "container mx-auto px-2";

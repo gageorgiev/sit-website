@@ -1,6 +1,7 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import '../css/marker.css';
+import Pin from '../../static/icons/place.svg';
 
 const ContactsMap = ({ className, ...props }) => {
     return (
@@ -20,3 +21,5 @@ const ContactsMap = ({ className, ...props }) => {
 };
 
 export default ContactsMap;
+
+

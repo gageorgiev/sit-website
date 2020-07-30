@@ -9,13 +9,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-tailwind--serif`,
-        short_name: `serif`,
+        name: `sit-website`,
+        short_name: `sit`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#e31e25`,
+        theme_color: `#aaaaaa`,
         display: `minimal-ui`,
-        icon: `static/favicon.png`
+        icon: `src/images/favicon.png`
       }
     },
     {
@@ -23,6 +23,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content`,
         name: 'services'
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/images`
       }
     },
     'gatsby-transformer-remark',
