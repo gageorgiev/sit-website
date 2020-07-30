@@ -42,9 +42,9 @@ const Project = ({ pageContext }) => {
                             </div>}
                         </Spring>
                             <Slider arrows={false} dots={true} className="h-96 w-full md:w-2/3">
-                                {pageContext.carousel.map(photo =>
+                                {pageContext.carousel.map((photo, index) =>
                                     <div>
-                                        <img src={require(`../images/project-images/${pageContext.name}/${photo}`)} />
+                                        <img src={require(`../images/project-images/${pageContext.name}/${photo}`)} alt={`${pageContext.name}-${index}`} />
                                     </div>    
                                 )}
                             </Slider>
