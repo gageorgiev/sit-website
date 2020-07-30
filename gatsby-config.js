@@ -2,10 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `С.И.Т.`,
     description: `Строителна фирма С.И.Т. ООД`,
-    author: `@gabrielgeorgiev1998`
+    author: `@gabrielgeorgiev1998`,
+    siteUrl: `master.d29u0a5lu86afn.amplifyapp.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
