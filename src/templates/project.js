@@ -41,15 +41,13 @@ const Project = ({ pageContext }) => {
                                 <p><strong>Година на завършване: </strong>{pageContext.endyear}</p>
                             </div>}
                         </Spring>
-                        <div className="h-96 w-full md:w-2/3">
-                            <Slider arrows={false} dots={true} >
+                            <Slider arrows={false} dots={true} className="h-96 w-full md:w-2/3">
                                 {pageContext.carousel.map(photo =>
                                     <div>
                                         <img src={require(`../images/project-images/${pageContext.name}/${photo}`)} />
                                     </div>    
                                 )}
                             </Slider>
-                        </div>
                     </div>
                 </div>
             </div>
