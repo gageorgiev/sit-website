@@ -27,8 +27,8 @@ import logo_gap from '../images/partner-logos/gap.jpg';
 const partnerlogos1 = [{ logo: logo_hus, height: '9vh' },
 { logo: logo_iota, height: '9vh' },
 { logo: logo_gap, height: '10.5vh' },
-{ logo: logo_teolino, height: '9vh' }];
-const partnerlogos2 = [{ logo: logo_persenk, height: '6vh', paddingTop: '2vh' },
+];
+const partnerlogos2 = [{ logo: logo_persenk, height: '6vh', paddingTop: '2vh' },{ logo: logo_teolino, height: '9vh' },
 { logo: logo_tehnopanel, height: '8.5vh', paddingTop: '1.2vh' }];
 
 

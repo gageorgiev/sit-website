@@ -23,7 +23,7 @@ const ProjectsModule = ({ }) => {
                 <Tab className="p-4 cursor-pointer">ОБЩЕСТВЕНИ ПОРЪЧКИ</Tab>
             </TabList>
             <div className="pt-4">
-            <TabPanel className="w-full flex flex-wrap justify-around ">
+            <TabPanel className="w-full flex flex-wrap justify-evenly ">
               {projects.map(project =>
                 <Link className="mb-8" to={`/projects/${project.name}`}>
                   <NewProjectCard

@@ -1,7 +1,8 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { CarouselProvider, Dot, Slide, Slider, Image } from 'pure-react-carousel';
+//import { CarouselProvider, Dot, Slide, Slider, Image } from 'pure-react-carousel';
+import Slider from 'infinite-react-carousel';
 import { Spring } from 'react-spring/renderprops';
 
 const Project = ({ pageContext }) => {
@@ -35,35 +36,19 @@ const Project = ({ pageContext }) => {
 
                                 }}
                             >
-                                <p><strong>Инвеститор: </strong>{pageContext.client}</p>
+                                <p><strong>Възложител: </strong>{pageContext.client}</p>
                                 <p><strong>Местоположение: </strong>{pageContext.place}</p>
                                 <p><strong>Година на завършване: </strong>{pageContext.endyear}</p>
                             </div>}
                         </Spring>
                         <div className="h-96 w-full md:w-2/3">
-                            <CarouselProvider
-                                naturalSlideWidth={6000}
-                                naturalSlideHeight={4000}
-                                totalSlides={pageContext.carousel.length}
-                                isPlaying={true}
-                                interval={2000}
-                                className="w-full md:w-3/5 lg:w-1/2 mt-8 self-center"
-                            >
-                                <Slider> 
-                                    {pageContext.carousel.map((photo, index) =>
-                                        <Slide index={index} >
-                                            <Image src={require(`../images/project-images/${pageContext.name}/${photo}`)} />
-                                        </Slide>
-                                    )}
-                                </Slider>
-                                <div className="flex flex-row justify-center">
-                                    {pageContext.carousel.map((photo, index) =>
-                                    <Dot slide={index}>
-                                        <img src={require(`../images/project-images/${pageContext.name}/${photo}`)} className="h-16 p-1" />
-                                    </Dot>
-                                    )}
-                                </div>
-                            </CarouselProvider>
+                            <Slider arrows={false} dots={true} >
+                                {pageContext.carousel.map(photo =>
+                                    <div>
+                                        <img src={require(`../images/project-images/${pageContext.name}/${photo}`)} />
+                                    </div>    
+                                )}
+                            </Slider>
                         </div>
                     </div>
                 </div>
@@ -75,3 +60,28 @@ const Project = ({ pageContext }) => {
 
 
 export default Project;
+
+
+
+                            /*<CarouselProvider
+                                naturalSlideWidth={6000}
+                                naturalSlideHeight={4000}
+                                totalSlides={pageContext.carousel.length}
+                                isPlaying={true}
+                                interval={2000}
+                            >
+                                <Slider> 
+                                    {pageContext.carousel.map((photo, index) =>
+                                        <Slide index={index} >
+                                            <Image src={require(`../images/project-images/${pageContext.name}/${photo}`)} />
+                                        </Slide>
+                                    )}
+                                </Slider>
+                                <div className="flex flex-row justify-around">
+                                    {pageContext.carousel.map((photo, index) =>
+                                    <Dot slide={index}>
+                                        <img src={require(`../images/project-images/${pageContext.name}/${photo}`)} className="h-16 p-1" />
+                                    </Dot>
+                                    )}
+                                </div>
+                            </CarouselProvider>*/
