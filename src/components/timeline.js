@@ -19,15 +19,17 @@ const Timeline = ({ className, ...props }) => {
                     date="2011 - 2014"
                     iconStyle={{ background: 'grey', }}
                 >
+                    <Link to='/projects/leksi' >
                     <div class="max-w-sm rounded overflow-hidden shadow-lg ">
-                        <img class="w-full" src={building1} alt="Sunset in the mountains" />
+                        <img class="w-full" src={building1} alt="Снимка на сградата на Лекси" />
                         <div class="px-6 py-4">
-                            <div class="text-2xl mb-2">Лекси</div>
+                            <div class="text-2xl mb-2">Супермаркет "Лекси"</div>
                             <p class="text-gray-700 ">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
     </p>
                         </div>
                     </div>
+                    </Link>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -35,15 +37,17 @@ const Timeline = ({ className, ...props }) => {
                     date="2014 - 2016"
                     iconStyle={{ background: '#e31e25', }}
                 >
+                    <Link to='/projects/praktiker' >
                     <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                        <img class="w-full" src={building2} alt="Sunset in the mountains" />
+                        <img class="w-full" src={building2} alt="Снимка на сградата на Практикер" />
                         <div class="px-6 py-4">
-                            <div class="text-2xl mb-2">Практикер</div>
+                            <div class="text-2xl mb-2">Строителен хипермаркет "Практикер"</div>
                             <p class="text-gray-700 text-base">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
     </p>
                         </div>
                     </div>
+                    </Link>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -51,15 +55,17 @@ const Timeline = ({ className, ...props }) => {
                     date="2016 - 2019"
                     iconStyle={{ background: 'grey', }}
                 >
+                    <Link to='/projects/colori' >
                     <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                        <img class="w-full" src={building3} alt="Sunset in the mountains" />
+                        <img class="w-full" src={building3} alt="Снимка на сградата на Колори" />
                         <div class="px-6 py-4">
-                            <div class="text-2xl mb-2">Колори</div>
+                            <div class="text-2xl mb-2">Фабрика "Колори"</div>
                             <p class="text-gray-700 text-base">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
     </p>
                         </div>
                     </div>
+                    </Link>
                 </VerticalTimelineElement>
             </VerticalTimeline>
             <Link to="/projects">

@@ -25,7 +25,7 @@ const Project = ({ pageContext }) => {
                             {props => <div
                                 onMouseEnter={() => setHovering(true)}
                                 onMouseLeave={() => setHovering(false)}
-                                className="w-full md:w-1/4 h-32 mt-10 px-6 py-4 manrope"
+                                className="w-full md:w-1/4 h-48 mt-10 px-6 py-4 manrope"
                                 style={{
                                     boxShadow:
                                         "0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)",
