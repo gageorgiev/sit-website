@@ -15,7 +15,6 @@ import PartnerLogo from '../components/partner-logo';
 import '../css/fonts.css';
 
 
-import logo_aeroconcept from '../images/partner-logos/aeroconcept.jpg';
 import logo_hus from '../images/partner-logos/hus.jpg';
 import logo_iota from '../images/partner-logos/iota.jpg';
 import logo_persenk from '../images/partner-logos/persenk.jpg';
