@@ -24,9 +24,6 @@ const Timeline = ({ className, ...props }) => {
                         <img class="w-full" src={building1} alt="Снимка на сградата на Лекси" />
                         <div class="px-6 py-4">
                             <div class="text-2xl mb-2">Супермаркет "Лекси"</div>
-                            <p class="text-gray-700 ">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
                         </div>
                     </div>
                     </Link>
@@ -42,9 +39,6 @@ const Timeline = ({ className, ...props }) => {
                         <img class="w-full" src={building2} alt="Снимка на сградата на Практикер" />
                         <div class="px-6 py-4">
                             <div class="text-2xl mb-2">Строителен хипермаркет "Практикер"</div>
-                            <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
                         </div>
                     </div>
                     </Link>
@@ -60,9 +54,6 @@ const Timeline = ({ className, ...props }) => {
                         <img class="w-full" src={building3} alt="Снимка на сградата на Колори" />
                         <div class="px-6 py-4">
                             <div class="text-2xl mb-2">Фабрика "Колори"</div>
-                            <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
                         </div>
                     </div>
                     </Link>

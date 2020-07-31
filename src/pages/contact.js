@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import ContactsMap from '../components/newmap';
-import { Spring } from 'react-spring/renderprops';
+import { Spring, config } from 'react-spring/renderprops';
 
 import CallIcon from '../../static/icons/call.svg';
 import EmailIcon from '../../static/icons/email.svg';
@@ -21,11 +21,18 @@ const Contact = () => {
             <h1 className="text-4xl md:text-5xl text-red-600 garamond">КОНТАКТИ</h1>
           </div>
           <Spring
+            from={{
+              opacity: 0,
+              marginTop: '2rem'
+            }}
             to={{
               transform: `scale(${hovering ? 1.1 : 1})`,
               marginBottom: `${hovering ? '1rem' : '0rem'}`,
-                shadow: `${hovering ? '0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)' : '0 15px 35px rgba(0,0,0,0), 0 5px 15px rgba(0,0,0,0)'}`
+                shadow: `${hovering ? '0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)' : '0 15px 35px rgba(0,0,0,0), 0 5px 15px rgba(0,0,0,0)'}`,
+                opacity: 1,
+                marginTop: '0rem'
             }}
+            config={key => (key === 'opacity' ? config.molasses : config.default )}
           >
             {props => <div
               onMouseEnter={() => setHovering(true)}
@@ -34,7 +41,9 @@ const Contact = () => {
               style={{
                 boxShadow: props.shadow,
                 transform: props.transform,
-                marginBottom: props.marginBottom
+                marginBottom: props.marginBottom,
+                marginTop: props.marginTop,
+                opacity: props.opacity
               }}
             >
               <div className="flex flex-row w-full">
