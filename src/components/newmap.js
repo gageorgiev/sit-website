@@ -7,7 +7,7 @@ const ContactsMap = ({ className, ...props }) => {
     return (
         <div className="h-72 w-full lg:h-88 lg:w-7/12">
             <GoogleMapReact
-              bootstrapURLKeys={{ key: 'AIzaSyBoUyquM_X2JgbZaGpOe5L1AG-buN3q8w0'}}
+              bootstrapURLKeys={{ key: 'AIzaSyBirYN-T7bEIGKdnRsCMh52W-n_T_SW1QY'}}
               defaultCenter={{ lat: 42.136059, lng: 24.737103 }}
               defaultZoom={17}
             >
