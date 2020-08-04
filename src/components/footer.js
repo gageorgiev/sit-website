@@ -15,7 +15,7 @@ const Footer = ({ className, ...props }) => {
           <ul className="flex flex-col md:flex-row text-sm -mx-3 font-medium">
             <li className="mx-3 underline"><Link to="/">За нас</Link></li>
             <li className="mx-3 underline"><Link to="/contact">Контакти</Link></li>
-            <li className="mx-3">©2019 С.И.Т. ООД</li>
+            <li className="mx-3">©1994 С.И.Т. ООД</li>
           </ul>
         </div>
       </div>
