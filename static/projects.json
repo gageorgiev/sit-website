@@ -156,7 +156,7 @@
         "obshtestveni": true
     },
     {
-        "name": "put_peshtera",
+        "name": "putpeshtera",
         "displayname": "Реконструкция на път",
         "description": "",
         "frontimage": "dsc_0256.jpg",
