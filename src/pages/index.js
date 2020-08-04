@@ -48,9 +48,9 @@ function Index({ data }) {
 
           <div className="bg-fixed bg-top bg-cover lg:bg-contain" style={{ backgroundImage: `url(${builders})` }}>
             <div className="mb-20 flex flex-col mt-4 md:mt-16" >
-              <p className="mb-2 text-4xl text-gray-800 self-center garamond" >
+              <h1 className="mb-2 text-4xl text-gray-800 self-center garamond" >
                 ЗА НАС
-              </p>
+              </h1>
 
               <div className="flex flex-wrap text-m md:text-l lg:text-xl px-4 md:px-8 lg:px-16 manrope" >
                 <img src={branding} className="h-24 mb-2 mx-auto justify-center" alt="" />
