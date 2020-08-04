@@ -6576,13 +6576,6 @@ gatsby-page-utils@^0.2.1:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-html-attributes@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-html-attributes/-/gatsby-plugin-html-attributes-1.0.5.tgz#811613bdeff119aa4fa61ed33b5147d52d5a7017"
-  integrity sha512-5u9AHfwxYuhl/QT+cI/r0+1oCKba/LPB6PHUaJN65swPOPrsAiNAj++hTSCs3CG3fITcR8Oorcn6hm6rN+uVAg==
-  dependencies:
-    babel-runtime "^6.26.0"
-
 gatsby-plugin-manifest@2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.2.tgz#0a9605a778a8e30ce047b9b3701031b9bde61d6b"

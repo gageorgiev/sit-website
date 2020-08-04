@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `С.И.Т.`,
+    title: `Строителна фирма С.И.Т.`,
     description: `Строителна фирма С.И.Т. ООД`,
     author: `@gabrielgeorgiev1998`,
     siteUrl: `https://www.sit-bg.com`
@@ -66,11 +66,5 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-html-attributes',
-      options: {
-        lang: 'bg'
-      }
-    }
   ]
 };
