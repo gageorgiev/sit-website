@@ -3,7 +3,7 @@ module.exports = {
     title: `С.И.Т.`,
     description: `Строителна фирма С.И.Т. ООД`,
     author: `@gabrielgeorgiev1998`,
-    siteUrl: `https://master.d29u0a5lu86afn.amplifyapp.com`
+    siteUrl: `https://www.sit-bg.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
