@@ -4,6 +4,8 @@ import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 import favicon from '../images/favicon.png';
 
+import sitlogo from '../images/Sit_Logo_New_02.jpg';
+
 function SEO({ description, lang, meta, keywords, title }) {
   const data = useStaticQuery(
     graphql`
@@ -59,6 +61,14 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           name: `twitter:description`,
           content: metaDescription
+        },
+        {
+          name: `twitter:image`,
+          content: sitlogo
+        },
+        {
+          name: `google-site-verification`,
+          content: `yLcZPR1CI-yEkBXlhOjUEB9EltHX6ETOQb-pCGJuHQo`
         }
       ]
         .concat(
