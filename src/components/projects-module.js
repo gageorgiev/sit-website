@@ -25,8 +25,8 @@ const ProjectsModule = ({ }) => {
         </TabList>
         <div className="pt-4">
           <TabPanel className="w-full flex flex-wrap justify-evenly ">
-            {projects.map(project =>
-              <Link className="mb-8" to={`/projects/${project.name}`}>
+            {projects.map((project, index) =>
+              <Link key={index} className="mb-8" to={`/projects/${project.name}`}>
                 <NewProjectCard
                   name={project.name}
                   description={project.description}
@@ -39,8 +39,8 @@ const ProjectsModule = ({ }) => {
             )}
           </TabPanel>
           <TabPanel className="w-full flex flex-wrap justify-around ">
-            {projects.map(project => project.jilishtno &&
-              <Link className="pb-8" to={`/projects/${project.name}`}>
+            {projects.map((project,index) => project.jilishtno &&
+              <Link key={index} className="pb-8" to={`/projects/${project.name}`}>
                 <NewProjectCard
                   name={project.name}
                   description={project.description}
@@ -53,8 +53,8 @@ const ProjectsModule = ({ }) => {
             )}
           </TabPanel>
           <TabPanel className="w-full flex flex-wrap justify-around ">
-            {projects.map(project => project.promishleno &&
-              <Link className="pb-8" to={`/projects/${project.name}`}>
+            {projects.map((project, index) => project.promishleno &&
+              <Link key={index} className="pb-8" to={`/projects/${project.name}`}>
                 <NewProjectCard
                   name={project.name}
                   description={project.description}
@@ -67,8 +67,8 @@ const ProjectsModule = ({ }) => {
             )}
           </TabPanel>
           <TabPanel className="w-full flex flex-wrap justify-around ">
-            {projects.map(project => project.infrastruktura &&
-              <Link className="pb-8" to={`/projects/${project.name}`}>
+            {projects.map((project,index) => project.infrastruktura &&
+              <Link key={index} className="pb-8" to={`/projects/${project.name}`}>
                 <NewProjectCard
                   name={project.name}
                   description={project.description}
@@ -81,8 +81,8 @@ const ProjectsModule = ({ }) => {
             )}
           </TabPanel>
           <TabPanel className="w-full flex flex-wrap justify-around ">
-            {projects.map(project => project.obshtestveni &&
-              <Link className="pb-8" to={`/projects/${project.name}`}>
+            {projects.map((project, index) => project.obshtestveni &&
+              <Link key={index} className="pb-8" to={`/projects/${project.name}`}>
                 <NewProjectCard
                   name={project.name}
                   description={project.description}

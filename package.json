@@ -1,8 +1,8 @@
 {
-  "name": "@windedge/gatsby-tailwind-serif",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "@gabrielgeorgiev1998/sit-website",
+  "description": "",
   "version": "1.0",
-  "author": "@windedge",
+  "author": "@gabrielgeorgiev1998",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "classnames": "^2.2.6",
@@ -73,10 +73,10 @@
   },
   "Repository": {
     "type": "git",
-    "url": "https://github.com/windedge/gatsby-tailwind-serif"
+    "url": "https://github.com/gabrielgeorgiev1998/sit-website"
   },
   "bugs": {
-    "url": "https://github.com/windedge/gatsby-tailwind-serif/issues"
+    "url": "https://github.com/gabrielgeorgiev1998/sit-website/issues"
   },
   "publishConfig": {
     "access": "public"

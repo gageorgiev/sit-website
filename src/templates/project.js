@@ -37,6 +37,7 @@ const Project = ({ pageContext }) => {
                             >
                                 <p><strong>Възложител: </strong>{pageContext.client}</p>
                                 <p><strong>Местоположение: </strong>{pageContext.place}</p>
+                                <p><strong>Извършени: </strong>{pageContext.izvursheni}</p>
                             </div>}
                         </Spring>
                             <Slider arrows={false} dots={true} className="h-96 w-full md:w-2/3">

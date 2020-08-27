@@ -10,7 +10,8 @@
         "jilishtno": true,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": false
+        "obshtestveni": false,
+        "izvursheni": "груб строеж"
     },
     {
         "name": "starosel",
@@ -23,7 +24,8 @@
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false
+        "obshtestveni": false,
+        "izvursheni": "цялостно изпълнение"
     },
     {
         "name": "leksi",
@@ -36,7 +38,9 @@
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false
+        "obshtestveni": false,
+        "izvursheni": "цялостно изпълнение"
+
     },
     {
         "name": "praktiker",
@@ -49,7 +53,9 @@
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false
+        "obshtestveni": false,
+        "izvursheni": "монолитно строителство и довършителни работи"
+
     },
     {
         "name": "colori",
@@ -62,7 +68,9 @@
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false
+        "obshtestveni": false,
+        "izvursheni": "груб строеж и довършителни работи"
+
     },
     {
         "name": "novotela",
@@ -75,7 +83,9 @@
         "jilishtno": true,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": false
+        "obshtestveni": false,
+        "izvursheni": ""
+
     },
     {
         "name": "suedinenie",
@@ -88,7 +98,9 @@
         "jilishtno": true,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": false
+        "obshtestveni": false,
+        "izvursheni": ""
+
     },
     {
         "name": "hankardam",
@@ -101,7 +113,9 @@
         "jilishtno": true,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": false
+        "obshtestveni": false,
+        "izvursheni": ""
+
     },
     {
         "name": "hristobotev",
@@ -114,7 +128,9 @@
         "jilishtno": false,
         "promishleno": false,
         "infrastruktura": true,
-        "obshtestveni": true
+        "obshtestveni": true,
+        "izvursheni": "цялостно изпълнение"
+
     },
     {
         "name": "curkva",
@@ -127,7 +143,9 @@
         "jilishtno": false,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": false
+        "obshtestveni": false,
+        "izvursheni": "груб строеж и вертикална планировка"
+
     },
     {
         "name": "nissan",
@@ -140,7 +158,9 @@
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false
+        "obshtestveni": false,
+        "izvursheni": ""
+
     },
     {
         "name": "peristera",
@@ -153,7 +173,9 @@
         "jilishtno": false,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": true
+        "obshtestveni": true,
+        "izvursheni": "консорциум между С.И.Т. ООД и Екса за изпълнена реставрация на средновековна крепост"
+
     },
     {
         "name": "putpeshtera",
@@ -166,7 +188,9 @@
         "jilishtno": false,
         "promishleno": false,
         "infrastruktura": true,
-        "obshtestveni": true
+        "obshtestveni": true,
+        "izvursheni": ""
+
     },
     {
         "name": "peshtera",
@@ -179,6 +203,8 @@
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false
+        "obshtestveni": false,
+        "izvursheni": ""
+
     }
 ]

@@ -39,13 +39,13 @@ const Certificates = ({ data }) => {
         </div>
         <div className="w-5/6 self-center">
         <div className="w-full flex flex-wrap justify-around pt-4" >
-          {certs1.map(certinfo =>
-              <Certificate cert={certinfo.cert} certpic={certinfo.certpic} name={certinfo.name} />
+          {certs1.map((certinfo, index) =>
+              <Certificate key={index} cert={certinfo.cert} certpic={certinfo.certpic} name={certinfo.name} />
           )}
         </div>
         <div className="w-full flex flex-wrap justify-around pt-4" >
-          {certs2.map(certinfo =>
-              <Certificate cert={certinfo.cert} certpic={certinfo.certpic} name={certinfo.name} />
+          {certs2.map((certinfo, index) =>
+              <Certificate key={index} cert={certinfo.cert} certpic={certinfo.certpic} name={certinfo.name} />
           )}
         </div>
         </div>
