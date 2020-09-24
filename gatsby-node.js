@@ -10,7 +10,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
         carousel: project.carousel,
         client: project.client,
         place: project.place,
-        izvursheni: project.izvursheni,
+        year: project.year
       }
     })
   });

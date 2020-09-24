@@ -2,209 +2,248 @@
     {
         "name": "preslav",
         "displayname": "Жилищна кооперация",
-        "description": "",
         "frontimage": "dsc_0018.jpg",
         "client": "Иван Караилански",
         "carousel": ["dsc_0018.jpg"],
         "place": "ул. \"Преслав\", Пловдив",
+        "year": "2018",
         "jilishtno": true,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": false,
-        "izvursheni": "груб строеж"
+        "obshtestveni": false
     },
     {
         "name": "starosel",
         "displayname": "Винарска изба \"Старосел\"",
-        "description": "",
         "frontimage": "dsc_0161.jpg",
         "client": "БалканТабако",
         "carousel": ["dsc_0145.jpg", "dsc_0153.jpg", "dsc_0161.jpg", "dsc_0167.jpg", "dsc_0174.jpg", "dsc_0176.jpg"],
         "place": "с. Старосел",
+        "year": "2005-2013",
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false,
-        "izvursheni": "цялостно изпълнение"
+        "obshtestveni": false
     },
     {
         "name": "leksi",
         "displayname": "Супермаркет \"Лекси\"",
-        "description": "",
         "frontimage": "dsc_1407.jpg",
         "client": "\"Алекс Трейд 2010\" ЕООД",
         "carousel": ["dsc_1407.jpg", "dsc_1410.jpg", "dsc_1411.jpg"],
         "place": "бул. \"Марица\" 19, Пловдив",
+        "year": "",
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false,
-        "izvursheni": "цялостно изпълнение"
-
+        "obshtestveni": false
     },
     {
         "name": "praktiker",
         "displayname": "Строителен хипермаркет \"Практикер\"",
-        "description": "",
         "frontimage": "dsc_1430.jpg",
         "client": "\"Микс Констръкшън\" ООД",
         "carousel": ["dsc_1424.jpg", "dsc_1430.jpg"],
         "place": "бул. \"Кукленско шосе\" 9, Пловдив",
+        "year": "2018",
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false,
-        "izvursheni": "монолитно строителство и довършителни работи"
-
+        "obshtestveni": false
     },
     {
         "name": "colori",
         "displayname": "Фабрика за сенници и щори \"Колори\" ",
-        "description": "",
         "frontimage": "dsc_0010.jpg",
         "client": "Колори 2005 ЕООД",
         "carousel": ["dsc_0010.jpg", "dsc_0015.jpg"],
         "place": "ул. \"Георги Бенев\" 5, Пловдив",
+        "year": "",
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false,
-        "izvursheni": "груб строеж и довършителни работи"
-
+        "obshtestveni": false
     },
     {
         "name": "novotela",
         "displayname": "Жилищна кооперация",
-        "description": "",
         "frontimage": "dsc_1415.jpg",
         "client": "С.И.Т. ООД",
         "carousel": ["dsc_1415.jpg"],
         "place": "ул. \"Средец\" 46, Пловдив",
+        "year": "1998",
         "jilishtno": true,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": false,
-        "izvursheni": ""
-
+        "obshtestveni": false
     },
     {
         "name": "suedinenie",
         "displayname": "Жилищна кооперация",
-        "description": "",
         "frontimage": "dsc_1468.jpg",
         "client": "???????",
         "carousel": ["dsc_1468.jpg", "dsc_1471.jpg"],
         "place": "ул. \"Димитър Цончев\" 3, Пловдив",
+        "year": "2019",
         "jilishtno": true,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": false,
-        "izvursheni": ""
-
+        "obshtestveni": false
     },
     {
-        "name": "hankardam",
+        "name": "han-kardam",
         "displayname": "Жилищна кооперация",
-        "description": "",
         "frontimage": "dsc_1439.jpg",
         "client": "С.И.Т. ООД",
         "carousel": ["dsc_1438.jpg", "dsc_1439.jpg"],
         "place": "ул. \"Хан Кардам\" 8, Пловдив",
+        "year": "2007",
         "jilishtno": true,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": false,
-        "izvursheni": ""
-
+        "obshtestveni": false
     },
     {
-        "name": "hristobotev",
+        "name": "hristo-botev",
         "displayname": "СОУ \"Христо Ботев\", Съединение",
-        "description": "",
         "frontimage": "dsc_0140.jpg",
         "client": "Община Съединение",
         "carousel": ["dsc_0128.jpg", "dsc_0134.jpg", "dsc_0136.jpg", "dsc_0140.jpg"],
         "place": "ул. \"Отец Паисий\" 14, Съединение",
+        "year": "",
         "jilishtno": false,
         "promishleno": false,
         "infrastruktura": true,
-        "obshtestveni": true,
-        "izvursheni": "цялостно изпълнение"
-
+        "obshtestveni": true
     },
     {
-        "name": "curkva",
+        "name": "molitven-dom",
         "displayname": "Молитвен дом",
-        "description": "",
         "frontimage": "dsc_0183.jpg",
         "client": "ЕВАНГЕЛСКА ПЕТДЕСЯТНА ЦЪРКВА СВЕТА ТРОИЦА – ГР. ПЛОВДИВ",
         "carousel": ["dsc_0183.jpg", "dsc_0182.jpg"],
         "place": "местоположение",
+        "year": "2019",
         "jilishtno": false,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": false,
-        "izvursheni": "груб строеж и вертикална планировка"
-
+        "obshtestveni": false
     },
     {
-        "name": "nissan",
-        "displayname": "Нисан",
-        "description": "",
+        "name": "showroom",
+        "displayname": "Шоурум \"Рено\"",
         "frontimage": "dsc_1464.jpg",
         "client": "клиент проект 2",
         "carousel": ["dsc_1460.jpg", "dsc_1463.jpg", "dsc_1464.jpg", "dsc_1465.jpg"],
         "place": "местоположение",
+        "year": "2006-2007",
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false,
-        "izvursheni": ""
-
+        "obshtestveni": false
     },
     {
         "name": "peristera",
         "displayname": "Реставрация на крепост \"Перистера\"",
-        "description": "",
         "frontimage": "dsc_0195.jpg",
         "client": "Община Пещера",
         "carousel": ["dsc_0195.jpg", "dsc_0202.jpg", "dsc_0205.jpg", "dsc_0209.jpg", "dsc_0212.jpg", "dsc_0226.jpg", "dsc_0239.jpg"],
         "place": "хълм \"Света Петка\", Пещера",
+        "year": "2013-2014",
         "jilishtno": false,
         "promishleno": false,
         "infrastruktura": false,
-        "obshtestveni": true,
-        "izvursheni": "консорциум между С.И.Т. ООД и Екса за изпълнена реставрация на средновековна крепост"
-
+        "obshtestveni": true
     },
     {
         "name": "putpeshtera",
         "displayname": "Реконструкция на път",
-        "description": "",
         "frontimage": "dsc_0256.jpg",
         "client": "Община Пещера",
         "carousel": ["dsc_0256.jpg", "dsc_0259.jpg", "dsc_0262.jpg"],
         "place": "ул. \"Хан Пресиян\", Пещера",
+        "year": "",
         "jilishtno": false,
         "promishleno": false,
         "infrastruktura": true,
-        "obshtestveni": true,
-        "izvursheni": ""
-
+        "obshtestveni": true
     },
     {
         "name": "peshtera",
         "displayname": "Пещера",
-        "description": "",
         "frontimage": "dsc_0244.jpg",
-        "client": "клиент проект 2",
+        "client": "Вимпром Пещера",
         "carousel": ["dsc_0242.jpg", "dsc_0244.jpg", "dsc_0245.jpg", "dsc_0249.jpg", "dsc_0251.jpg"],
         "place": "местоположение",
+        "year": "2004-2012",
         "jilishtno": false,
         "promishleno": true,
         "infrastruktura": false,
-        "obshtestveni": false,
-        "izvursheni": ""
-
+        "obshtestveni": false
+    },
+    {
+        "name": "avtokushta-dimchev",
+        "displayname": "Автокъща \"Димчев\"",
+        "frontimage": "dsc_0313.jpg",
+        "client": "Костадин Димчев",
+        "carousel": ["dsc_0313.jpg", "dsc_0315.jpg"],
+        "place": "местоположение",
+        "year": "2012",
+        "jilishtno": false,
+        "promishleno": true,
+        "infrastruktura": false,
+        "obshtestveni": false
+    },
+    {
+        "name": "selena-es",
+        "displayname": "Пещера",
+        "frontimage": "20200917_190515.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["20200917_190515.jpg"],
+        "place": "местоположение",
+        "year": "2020",
+        "jilishtno": false,
+        "promishleno": true,
+        "infrastruktura": false,
+        "obshtestveni": false
+    },
+    {
+        "name": "vegetarianska-22",
+        "displayname": "Пещера",
+        "frontimage": "dsc_0322.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_0322.jpg", "dsc_0324.jpg"],
+        "place": "местоположение",
+        "year": "",
+        "jilishtno": false,
+        "promishleno": true,
+        "infrastruktura": false,
+        "obshtestveni": false
+    },
+    {
+        "name": "vegetarianska-23",
+        "displayname": "Пещера",
+        "frontimage": "dsc_0319.jpg",
+        "client": "клиент проект 2",
+        "carousel": ["dsc_0319.jpg", "dsc_0320.jpg"],
+        "place": "местоположение",
+        "year": "",
+        "jilishtno": false,
+        "promishleno": true,
+        "infrastruktura": false,
+        "obshtestveni": false
+    },
+    {
+        "name": "volvo",
+        "displayname": "Пещера",
+        "frontimage": "dsc_0278.jpg",
+        "client": "Волво България",
+        "carousel": ["dsc_0278.jpg", "dsc_0281.jpg", "dsc_0285.jpg", "dsc_0288.jpg", "dsc_0289.jpg", "dsc_0291.jpg"],
+        "place": "местоположение",
+        "year": "2018-2019",
+        "jilishtno": false,
+        "promishleno": true,
+        "infrastruktura": false,
+        "obshtestveni": false
     }
 ]
